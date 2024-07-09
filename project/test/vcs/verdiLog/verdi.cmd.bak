@@ -1,0 +1,17 @@
+sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
+debImport "-f" "flist.f" "-2001" "-top" "tb"
+nsMsgSwitchTab -tab general
+debImport "-f" "/home/hz/project/test/vcs/flist.f" \
+          "/home/hz/project/test/vcs/tb.v" "/home/hz/project/test/vcs/top.v" \
+          -path {/home/hz/project/test/vcs}
+wvCreateWindow
+srcViewImportLogFile
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nText_3
+debReload
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nText_3
+verdiDockWidgetSetCurTab -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nText_3
+srcCloseWindow -win $_nTrace3
+debExit

@@ -1,0 +1,49 @@
+****************************************************************
+*                                                              *
+*   Copyright (c)  Cadence Design Systems, Inc.  1994 - 2002.  *
+*                     All rights reserved.                     *
+*                                                              *
+* Cadence acknowledges trademarks or registered trademarks of  *
+* other organizations for their respective products and        *
+* services.                                                    *
+*                                                              *
+* This program contains confidential, trade secret information *
+* of Cadence Design Systems, Inc.  Any reproduction, use or    *
+* disclosure of this program, including any attempt to obtain  *
+* a human-readable version of this program, without the        *
+* express, prior written consent of Cadence Design Systems,    *
+* Inc. is strictly prohibited.                                 *
+*                                                              *
+* U.S. GOVERNMENT END USERS:  This program is a "commercial    *
+* item" as that term is defined at 48 C.F.R. 2.101 (OCT 1995), *
+* consisting of "commercial computer software" and "commercial *
+* computer software documentation" as such terms are used in   *
+* 48 C.F.R. 12.212 (SEPT 1995).  Consistent with 48 C.F.R. 212 *
+* and 48 C.F.R. 227.7202-1 through 227.7202-4 (JUNE 1995), all *
+* U.S. Government End Users acquire the program with only      *
+* those rights set forth herein.                               *
+*                                                              *
+*                 Cadence Design Systems, Inc.                 *
+*                    555 River Oaks Parkway                    *
+*                   San Jose, CA 95134,  USA                   *
+*                                                              *
+*      libcompile   v05.07-s133+6    Feb 12 2003 11:43:33      *
+*                                                              *
+* Options                                                      *
+*                                                              *
+* Host camel                      Thu Mar 18 12:21:03 EET 2004 *
+*                                                              *
+****************************************************************
+--> WARNING: Support for libcompile is being phased out.  Use read_dotlib to read in .lib natively or syn2tlf and read_tlf to compile 
+             into TLF.  Some constructs such as generated clocks and interface_timing are supported only in read_dotlib and syn2tlf/read_
+             tlf <TECHLIB-402>.
+==> ERROR:   (File 'slow.lib', Line 106976) syntax error at ''
+              index_1 ("0.042, 0.066, 0.112, 0.2
+                                               ^
+==> ERROR:   Failed to read library 'slow.lib', 'TSMC013_slow.alf' not created
+             
+    Info:    Number of errors:  2
+    Info:    Number of warning: 1
+             
+             Completed with errors.
+             

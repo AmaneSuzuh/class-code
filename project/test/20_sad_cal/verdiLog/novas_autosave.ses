@@ -1,0 +1,82 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /home/hz/project/test/20_sad_cal/sim.fsdb
+syncTime = 0
+viewport = 1164 244 1848 1385 0 0 570 1846
+activeNode = "tb"
+activeScope = "tb"
+activeFile = "./sad_sel_tb.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 43
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb"
+multipleSelection = 1 23 9 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-f" "flist.f" "-2001" "-top" "tb" 
+invokeDir = /home/hz/project/test/20_sad_cal
+[hb.sourceTab.1]
+scope = tb
+File = /home/hz/project/test/20_sad_cal/sad_sel_tb.v
+Line = 44
+[nMemoryManager]
+WaveformFile = /home/hz/project/test/20_sad_cal/sim.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 1848 596 231 65
+primaryWindow = TRUE
+SessionFile = /home/hz/project/test/20_sad_cal/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

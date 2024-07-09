@@ -1,0 +1,14 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -f flist.f
+        ./sad_sel_tb.v
+        ./top.v
+    -2001
+    -top
+    tb
+
+Highest level modules:
+tb
+
+Total	0 error(s),   0 warning(s)

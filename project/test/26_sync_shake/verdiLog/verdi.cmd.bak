@@ -1,0 +1,64 @@
+sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
+debImport "-f" "flist.f" "-2001" "-top" "tb"
+srcHBSelect "tb.u_y" -win $_nTrace1
+srcHBSelect "tb.u_y" -win $_nTrace1
+srcHBSelect "tb.u_y" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.u_y" -delim "."
+srcHBSelect "tb.u_y" -win $_nTrace1
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/home/hz/project/test/sync_shake/tb.fsdb}
+wvAddAllSignals -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+verdiDockWidgetSetCurTab -dock widgetDock_<Inst._Tree>
+srcHBSelect "tb.u_y.u_sync_i" -win $_nTrace1
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb"
+debExit

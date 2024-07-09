@@ -1,0 +1,62 @@
+sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
+debImport "-f" "flist.f" "-2001" "-top" "tb"
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/home/hz/project/test/20_sad_cal/sim.fsdb}
+wvAddAllSignals -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 63593293.540133 66151414.713337
+wvZoom -win $_nWave2 65487569.146359 66095836.944937
+wvSelectSignal -win $_nWave2 {( "G1" 11 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 9 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/tb/sad_vld" -connectivity
+srcDeselectAll -win $_nTrace1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 11471574.636089 19945351.022330
+wvZoom -win $_nWave2 12990410.838080 14892791.535534
+wvZoom -win $_nWave2 13474903.689202 13704521.154193
+wvZoom -win $_nWave2 13533104.857152 13564284.054269
+wvZoom -win $_nWave2 13541083.118814 13545712.015912
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 9 )} 
+srcDeselectAll -win $_nTrace1
+debExit

@@ -1,0 +1,3420 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 100
+Design : sad_cal
+Version: K-2015.06
+Date   : Sun Mar 24 11:08:33 2019
+****************************************
+
+ # A fanout number of 250 was used for high fanout net computations.
+
+Operating Conditions: fast   Library: fast
+Wire Load Model Mode: enclosed
+
+  Startpoint: acc_4x4_reg[2][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[2][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[2][3][7]/CK (DFFRX4)         0.00 #     1.00 r
+  acc_4x4_reg[2][3][7]/QN (DFFRX4)         0.14       1.14 r
+  U10833/Y (OAI21X1)                       0.03       1.17 f
+  acc_4x4_reg[2][3][7]/D (DFFRX4)          0.00       1.17 f
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[2][3][7]/CK (DFFRX4)         0.00       1.08 r
+  library hold time                        0.02       1.10
+  data required time                                  1.10
+  -----------------------------------------------------------
+  data required time                                  1.10
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.06
+
+
+  Startpoint: acc_1x4_reg[2][12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][12]/CK (DFFRHQX4)         0.00 #     1.00 r
+  acc_1x4_reg[2][12]/Q (DFFRHQX4)          0.10       1.10 r
+  U11020/Y (NAND2X1)                       0.03       1.13 f
+  U10496/Y (NAND2X2)                       0.03       1.16 r
+  acc_1x4_reg[2][12]/D (DFFRHQX4)          0.00       1.16 r
+  data arrival time                                   1.16
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][12]/CK (DFFRHQX4)         0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+  Startpoint: acc_4x16_reg[2][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[2][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[2][3][7]/CK (DFFRHQX4)      0.00 #     1.00 r
+  acc_4x16_reg[2][3][7]/Q (DFFRHQX4)       0.10       1.10 r
+  U10795/Y (NAND2X1)                       0.02       1.12 f
+  U11496/Y (NAND2X1)                       0.04       1.16 r
+  acc_4x16_reg[2][3][7]/D (DFFRHQX4)       0.00       1.16 r
+  data arrival time                                   1.16
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[2][3][7]/CK (DFFRHQX4)      0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+  Startpoint: acc_4x16_reg[14][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[14][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[14][3][7]/CK (DFFRHQX4)                    0.00 #     1.00 r
+  acc_4x16_reg[14][3][7]/Q (DFFRHQX4)                     0.10       1.10 r
+  U10560/Y (CLKMX2X3)                                     0.06       1.16 r
+  acc_4x16_reg[14][3][7]/D (DFFRHQX4)                     0.00       1.16 r
+  data arrival time                                                  1.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[14][3][7]/CK (DFFRHQX4)                    0.00       1.08 r
+  library hold time                                       0.00       1.08
+  data required time                                                 1.08
+  --------------------------------------------------------------------------
+  data required time                                                 1.08
+  data arrival time                                                 -1.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: acc_4x16_reg[6][2][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[6][2][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[6][2][7]/CK (DFFRHQX8)      0.00 #     1.00 r
+  acc_4x16_reg[6][2][7]/Q (DFFRHQX8)       0.11       1.11 r
+  U11206/Y (MX2X2)                         0.05       1.16 r
+  acc_4x16_reg[6][2][7]/D (DFFRHQX8)       0.00       1.16 r
+  data arrival time                                   1.16
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[6][2][7]/CK (DFFRHQX8)      0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+  Startpoint: acc_4x16_reg[4][1][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[4][1][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[4][1][7]/CK (DFFRHQX8)      0.00 #     1.00 r
+  acc_4x16_reg[4][1][7]/Q (DFFRHQX8)       0.11       1.11 r
+  U12176/Y (MX2X2)                         0.05       1.16 r
+  acc_4x16_reg[4][1][7]/D (DFFRHQX8)       0.00       1.16 r
+  data arrival time                                   1.16
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[4][1][7]/CK (DFFRHQX8)      0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+  Startpoint: acc_4x16_reg[2][1][8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[2][1][8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[2][1][8]/CK (DFFRHQX8)      0.00 #     1.00 r
+  acc_4x16_reg[2][1][8]/Q (DFFRHQX8)       0.11       1.11 r
+  U11300/Y (CLKMX2X3)                      0.06       1.16 r
+  acc_4x16_reg[2][1][8]/D (DFFRHQX8)       0.00       1.16 r
+  data arrival time                                   1.16
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[2][1][8]/CK (DFFRHQX8)      0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+  Startpoint: acc_4x16_reg[8][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[8][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[8][3][7]/CK (DFFRHQX8)      0.00 #     1.00 r
+  acc_4x16_reg[8][3][7]/Q (DFFRHQX8)       0.11       1.11 r
+  U10606/Y (CLKMX2X3)                      0.06       1.17 r
+  acc_4x16_reg[8][3][7]/D (DFFRHQX8)       0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[8][3][7]/CK (DFFRHQX8)      0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x4_reg[1][2][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][2][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][2][7]/CK (DFFRHQX4)       0.00 #     1.00 r
+  acc_4x4_reg[1][2][7]/Q (DFFRHQX4)        0.10       1.10 r
+  U11491/Y (CLKMX2X2)                      0.06       1.17 r
+  acc_4x4_reg[1][2][7]/D (DFFRHQX4)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][2][7]/CK (DFFRHQX4)       0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[15][0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[15][0][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[15][0][7]/CK (DFFRHQX8)                    0.00 #     1.00 r
+  acc_4x16_reg[15][0][7]/Q (DFFRHQX8)                     0.11       1.11 r
+  U10861/Y (CLKMX2X2)                                     0.06       1.17 r
+  acc_4x16_reg[15][0][7]/D (DFFRHQX8)                     0.00       1.17 r
+  data arrival time                                                  1.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[15][0][7]/CK (DFFRHQX8)                    0.00       1.08 r
+  library hold time                                       0.00       1.08
+  data required time                                                 1.08
+  --------------------------------------------------------------------------
+  data required time                                                 1.08
+  data arrival time                                                 -1.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+  Startpoint: acc_4x16_reg[12][0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[12][0][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[12][0][7]/CK (DFFRHQX8)                    0.00 #     1.00 r
+  acc_4x16_reg[12][0][7]/Q (DFFRHQX8)                     0.11       1.11 r
+  U11967/Y (CLKMX2X2)                                     0.06       1.17 r
+  acc_4x16_reg[12][0][7]/D (DFFRHQX8)                     0.00       1.17 r
+  data arrival time                                                  1.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[12][0][7]/CK (DFFRHQX8)                    0.00       1.08 r
+  library hold time                                       0.00       1.08
+  data required time                                                 1.08
+  --------------------------------------------------------------------------
+  data required time                                                 1.08
+  data arrival time                                                 -1.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+  Startpoint: acc_4x4_reg[1][0][10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][0][10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][0][10]/CK (DFFRX2)        0.00 #     1.00 r
+  acc_4x4_reg[1][0][10]/QN (DFFRX2)        0.15       1.15 r
+  U10802/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x4_reg[1][0][10]/D (DFFRX2)         0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][0][10]/CK (DFFRX2)        0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[11][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[11][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[11][3][7]/CK (DFFRX2)       0.00 #     1.00 r
+  acc_4x16_reg[11][3][7]/QN (DFFRX2)       0.15       1.15 r
+  U10848/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x16_reg[11][3][7]/D (DFFRX2)        0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[11][3][7]/CK (DFFRX2)       0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[9][3][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[9][3][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[9][3][6]/CK (DFFRX2)        0.00 #     1.00 r
+  acc_4x16_reg[9][3][6]/QN (DFFRX2)        0.15       1.15 r
+  U10823/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x16_reg[9][3][6]/D (DFFRX2)         0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[9][3][6]/CK (DFFRX2)        0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[8][3][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[8][3][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[8][3][6]/CK (DFFRX2)        0.00 #     1.00 r
+  acc_4x16_reg[8][3][6]/QN (DFFRX2)        0.15       1.15 r
+  U10818/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x16_reg[8][3][6]/D (DFFRX2)         0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[8][3][6]/CK (DFFRX2)        0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x4_reg[0][2][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][2][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][2][9]/CK (DFFRX2)         0.00 #     1.00 r
+  acc_4x4_reg[0][2][9]/QN (DFFRX2)         0.15       1.15 r
+  U10807/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x4_reg[0][2][9]/D (DFFRX2)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][2][9]/CK (DFFRX2)         0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x4_reg[2][1][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[2][1][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[2][1][9]/CK (DFFRX2)         0.00 #     1.00 r
+  acc_4x4_reg[2][1][9]/QN (DFFRX2)         0.15       1.15 r
+  U10819/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x4_reg[2][1][9]/D (DFFRX2)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[2][1][9]/CK (DFFRX2)         0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[15][2][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[15][2][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[15][2][7]/CK (DFFRX2)       0.00 #     1.00 r
+  acc_4x16_reg[15][2][7]/QN (DFFRX2)       0.15       1.15 r
+  U10796/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x16_reg[15][2][7]/D (DFFRX2)        0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[15][2][7]/CK (DFFRX2)       0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x4_reg[0][3][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][3][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][3][9]/CK (DFFRX2)         0.00 #     1.00 r
+  acc_4x4_reg[0][3][9]/QN (DFFRX2)         0.15       1.15 r
+  U10808/Y (OAI21X1)                       0.02       1.18 f
+  acc_4x4_reg[0][3][9]/D (DFFRX2)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][3][9]/CK (DFFRX2)         0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.09
+
+
+  Startpoint: acc_4x16_reg[14][0][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[14][0][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[14][0][9]/CK (DFFRHQX2)                    0.00 #     1.00 r
+  acc_4x16_reg[14][0][9]/Q (DFFRHQX2)                     0.11       1.11 r
+  U10925/Y (MX2X2)                                        0.05       1.17 r
+  acc_4x16_reg[14][0][9]/D (DFFRHQX2)                     0.00       1.17 r
+  data arrival time                                                  1.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[14][0][9]/CK (DFFRHQX2)                    0.00       1.08 r
+  library hold time                                      -0.01       1.07
+  data required time                                                 1.07
+  --------------------------------------------------------------------------
+  data required time                                                 1.07
+  data arrival time                                                 -1.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+  Startpoint: acc_4x16_reg[4][1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[4][1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[4][1][0]/CK (DFFRHQX2)      0.00 #     1.00 r
+  acc_4x16_reg[4][1][0]/Q (DFFRHQX2)       0.11       1.11 r
+  U16005/Y (MX2X1)                         0.06       1.17 r
+  acc_4x16_reg[4][1][0]/D (DFFRHQX2)       0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[4][1][0]/CK (DFFRHQX2)      0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x16_reg[7][1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[7][1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[7][1][0]/CK (DFFRHQX2)      0.00 #     1.00 r
+  acc_4x16_reg[7][1][0]/Q (DFFRHQX2)       0.11       1.11 r
+  U12648/Y (MX2X1)                         0.06       1.17 r
+  acc_4x16_reg[7][1][0]/D (DFFRHQX2)       0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[7][1][0]/CK (DFFRHQX2)      0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x16_reg[14][0][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[14][0][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[14][0][6]/CK (DFFRHQX4)                    0.00 #     1.00 r
+  acc_4x16_reg[14][0][6]/Q (DFFRHQX4)                     0.11       1.11 r
+  U11989/Y (CLKMX2X2)                                     0.06       1.18 r
+  acc_4x16_reg[14][0][6]/D (DFFRHQX4)                     0.00       1.18 r
+  data arrival time                                                  1.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[14][0][6]/CK (DFFRHQX4)                    0.00       1.08 r
+  library hold time                                       0.00       1.08
+  data required time                                                 1.08
+  --------------------------------------------------------------------------
+  data required time                                                 1.08
+  data arrival time                                                 -1.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.10
+
+
+  Startpoint: acc_1x4_reg[2][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][5]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[2][5]/Q (DFFRHQX2)           0.11       1.11 r
+  U16058/Y (MX2X1)                         0.06       1.17 r
+  acc_1x4_reg[2][5]/D (DFFRHQX2)           0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][5]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[3][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[3][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[3][4]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[3][4]/Q (DFFRHQX2)           0.11       1.11 r
+  U12674/Y (MX2X1)                         0.06       1.17 r
+  acc_1x4_reg[3][4]/D (DFFRHQX2)           0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[3][4]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][3][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][3][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][3][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][3][2]/Q (DFFRHQX2)        0.11       1.11 r
+  U16063/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[3][3][2]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][3][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x16_reg[7][1][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[7][1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[7][1][1]/CK (DFFRHQX2)      0.00 #     1.00 r
+  acc_4x16_reg[7][1][1]/Q (DFFRHQX2)       0.11       1.11 r
+  U16000/Y (MX2X1)                         0.06       1.17 r
+  acc_4x16_reg[7][1][1]/D (DFFRHQX2)       0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[7][1][1]/CK (DFFRHQX2)      0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[0][3][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][3][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][3][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][3][1]/Q (DFFRHQX2)        0.11       1.11 r
+  U16042/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[0][3][1]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][3][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[0][2][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][2][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][2][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][2][2]/Q (DFFRHQX2)        0.11       1.11 r
+  U12745/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[0][2][2]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][2][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[3][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[3][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[3][2]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[3][2]/Q (DFFRHQX2)           0.11       1.11 r
+  U16043/Y (MX2X1)                         0.06       1.17 r
+  acc_1x4_reg[3][2]/D (DFFRHQX2)           0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[3][2]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][3][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][3][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][3][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][3][1]/Q (DFFRHQX2)        0.11       1.11 r
+  U12556/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[3][3][1]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][3][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[0][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[0][2]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[0][2]/Q (DFFRHQX2)           0.11       1.11 r
+  U12679/Y (MX2X1)                         0.06       1.17 r
+  acc_1x4_reg[0][2]/D (DFFRHQX2)           0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[0][2]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][1][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][1][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][1][2]/Q (DFFRHQX2)        0.11       1.11 r
+  U15999/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[3][1][2]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][1][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[0][1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][1][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][1][0]/Q (DFFRHQX2)        0.11       1.11 r
+  U16050/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[0][1][0]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][1][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[0][0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][0][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][0][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][0][1]/Q (DFFRHQX2)        0.11       1.11 r
+  U12901/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[0][0][1]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][0][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[1][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[1][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[1][5]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[1][5]/Q (DFFRHQX2)           0.11       1.11 r
+  U11197/Y (MX2X1)                         0.06       1.17 r
+  acc_1x4_reg[1][5]/D (DFFRHQX2)           0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[1][5]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][0][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][0][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][0][3]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][0][3]/Q (DFFRHQX2)        0.11       1.11 r
+  U12879/Y (MX2X1)                         0.06       1.17 r
+  acc_4x4_reg[3][0][3]/D (DFFRHQX2)        0.00       1.17 r
+  data arrival time                                   1.17
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][0][3]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x16_reg[4][2][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[4][2][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[4][2][6]/CK (DFFRHQX2)      0.00 #     1.00 r
+  acc_4x16_reg[4][2][6]/Q (DFFRHQX2)       0.12       1.12 r
+  U10568/Y (CLKMX2X3)                      0.06       1.18 r
+  acc_4x16_reg[4][2][6]/D (DFFRHQX2)       0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[4][2][6]/CK (DFFRHQX2)      0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[0][2][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][2][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][2][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][2][0]/Q (DFFRHQX2)        0.11       1.11 r
+  U16896/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[0][2][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][2][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][3][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][3][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][3][3]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][3][3]/Q (DFFRHQX2)        0.11       1.11 r
+  U11158/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[3][3][3]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][3][3]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[1][3][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][3][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][3][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][3][2]/Q (DFFRHQX2)        0.11       1.11 r
+  U18150/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[1][3][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][3][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_4x4_reg[3][2][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][2][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][2][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][2][2]/Q (DFFRHQX2)        0.11       1.11 r
+  U17733/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[3][2][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][2][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[1][0]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[1][0]/Q (DFFRHQX2)           0.12       1.12 r
+  U12706/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[1][0]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[1][0]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.10
+
+
+  Startpoint: acc_1x4_reg[0][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[0][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[0][4]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[0][4]/Q (DFFRHQX2)           0.12       1.12 r
+  U16897/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_1x4_reg[0][4]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[0][4]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[3][0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][0][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][0][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][0][2]/Q (DFFRHQX2)        0.12       1.12 r
+  U17116/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[3][0][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][0][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[0][1][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][1][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][1][2]/Q (DFFRHQX2)        0.12       1.12 r
+  U16685/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[0][1][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][1][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][0][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][0][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][0][2]/Q (DFFRHQX2)        0.12       1.12 r
+  U17945/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[1][0][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][0][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[3][0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][0][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][0][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][0][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U17117/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[3][0][1]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][0][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x16_reg[4][1][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[4][1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x16_reg[4][1][1]/CK (DFFRHQX2)      0.00 #     1.00 r
+  acc_4x16_reg[4][1][1]/Q (DFFRHQX2)       0.12       1.12 r
+  U18201/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x16_reg[4][1][1]/D (DFFRHQX2)       0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x16_reg[4][1][1]/CK (DFFRHQX2)      0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[0][3][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][3][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][3][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][3][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U16003/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[0][3][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][3][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[2][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][0]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[2][0]/Q (DFFRHQX2)           0.12       1.12 r
+  U12709/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[2][0]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][0]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[3][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[3][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[3][0]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[3][0]/Q (DFFRHQX2)           0.12       1.12 r
+  U16049/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[3][0]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[3][0]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[0][0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][0][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][0][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][0][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U12117/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[0][0][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][0][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: abs_val_reg[4][2][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[4][2][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[4][2][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  abs_val_reg[4][2][2]/Q (DFFRHQX2)        0.13       1.13 r
+  U17778/Y (AOI222X1)                      0.03       1.16 f
+  U15408/Y (CLKINVX1)                      0.02       1.18 r
+  abs_val_reg[4][2][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[4][2][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[3][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][3][7]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][3][7]/Q (DFFRHQX2)        0.12       1.12 r
+  U10814/Y (OAI2BB1X1)                     0.06       1.18 r
+  acc_4x4_reg[3][3][7]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][3][7]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[0][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[0][0]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[0][0]/Q (DFFRHQX2)           0.12       1.12 r
+  U16900/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_1x4_reg[0][0]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[0][0]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[2][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][6]/CK (DFFRHQX4)          0.00 #     1.00 r
+  acc_1x4_reg[2][6]/Q (DFFRHQX4)           0.12       1.12 r
+  U10912/Y (CLKMX2X2)                      0.07       1.19 r
+  acc_1x4_reg[2][6]/D (DFFRHQX4)           0.00       1.19 r
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][6]/CK (DFFRHQX4)          0.00       1.08 r
+  library hold time                        0.00       1.08
+  data required time                                  1.08
+  -----------------------------------------------------------
+  data required time                                  1.08
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][3][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][3][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][3][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][3][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U12716/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][3][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][3][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][2][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][2][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][2][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][2][2]/Q (DFFRHQX2)        0.12       1.12 r
+  U16034/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][2][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][2][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][2][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][2][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][2][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][2][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U16038/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][2][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][2][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[3][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[3][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[3][1]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[3][1]/Q (DFFRHQX2)           0.12       1.12 r
+  U16007/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[3][1]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[3][1]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[2][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][1]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[2][1]/Q (DFFRHQX2)           0.12       1.12 r
+  U12807/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[2][1]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][1]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[3][2][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][2][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][2][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][2][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U16052/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[3][2][1]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][2][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[2][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][3]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[2][3]/Q (DFFRHQX2)           0.12       1.12 r
+  U16054/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[2][3]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][3]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[3][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[3][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[3][5]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[3][5]/Q (DFFRHQX2)           0.12       1.12 r
+  U16046/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[3][5]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[3][5]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][2][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][2][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][2][3]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][2][3]/Q (DFFRHQX2)        0.12       1.12 r
+  U16061/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][2][3]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][2][3]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[1][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[1][1]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[1][1]/Q (DFFRHQX2)           0.12       1.12 r
+  U12656/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[1][1]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[1][1]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[0][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[0][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[0][5]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[0][5]/Q (DFFRHQX2)           0.12       1.12 r
+  U12223/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[0][5]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[0][5]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][0][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][0][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][0][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U12665/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][0][1]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][0][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[1][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[1][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[1][3]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[1][3]/Q (DFFRHQX2)           0.12       1.12 r
+  U12645/Y (MX2X1)                         0.06       1.18 r
+  acc_1x4_reg[1][3]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[1][3]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][1][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][1][2]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][1][2]/Q (DFFRHQX2)        0.12       1.12 r
+  U12922/Y (MX2X1)                         0.06       1.18 r
+  acc_4x4_reg[1][1][2]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][1][2]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][1][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][1][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U18357/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[1][1][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][1][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][3][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][3][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][3][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][3][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U18151/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[1][3][1]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][3][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x16_reg[14][3][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[14][3][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[14][3][5]/CK (DFFRHQX2)                    0.00 #     1.00 r
+  acc_4x16_reg[14][3][5]/Q (DFFRHQX2)                     0.12       1.12 r
+  U17313/Y (CLKMX2X2)                                     0.06       1.18 r
+  acc_4x16_reg[14][3][5]/D (DFFRHQX2)                     0.00       1.18 r
+  data arrival time                                                  1.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[14][3][5]/CK (DFFRHQX2)                    0.00       1.08 r
+  library hold time                                      -0.01       1.07
+  data required time                                                 1.07
+  --------------------------------------------------------------------------
+  data required time                                                 1.07
+  data arrival time                                                 -1.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: acc_4x4_reg[3][1][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[3][1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[3][1][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[3][1][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U17519/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[3][1][1]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[3][1][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x16_reg[12][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x16_reg[12][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  acc_4x16_reg[12][3][7]/CK (DFFRHQX2)                    0.00 #     1.00 r
+  acc_4x16_reg[12][3][7]/Q (DFFRHQX2)                     0.12       1.12 r
+  U11872/Y (CLKMX2X2)                                     0.06       1.18 r
+  acc_4x16_reg[12][3][7]/D (DFFRHQX2)                     0.00       1.18 r
+  data arrival time                                                  1.18
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  clock uncertainty                                       0.08       1.08
+  acc_4x16_reg[12][3][7]/CK (DFFRHQX2)                    0.00       1.08 r
+  library hold time                                      -0.01       1.07
+  data required time                                                 1.07
+  --------------------------------------------------------------------------
+  data required time                                                 1.07
+  data arrival time                                                 -1.18
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: acc_1x4_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[0][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[0][1]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[0][1]/Q (DFFRHQX2)           0.12       1.12 r
+  U16899/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_1x4_reg[0][1]/D (DFFRHQX2)           0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[0][1]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[1][0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[1][0][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[1][0][0]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[1][0][0]/Q (DFFRHQX2)        0.12       1.12 r
+  U17946/Y (CLKMX2X2)                      0.06       1.18 r
+  acc_4x4_reg[1][0][0]/D (DFFRHQX2)        0.00       1.18 r
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[1][0][0]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[15][4][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[15][4][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[15][4][7]/CK (DFFRX4)           0.00 #     1.00 r
+  diff_reg[15][4][7]/QN (DFFRX4)           0.14       1.14 r
+  U12416/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[15][4][7]/D (DFFRX1)         0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[15][4][7]/CK (DFFRX1)        0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[4][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[4][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[4][3][7]/CK (DFFRX4)            0.00 #     1.00 r
+  diff_reg[4][3][7]/QN (DFFRX4)            0.14       1.14 r
+  U12412/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[4][3][7]/D (DFFRX1)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[4][3][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[9][0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[9][0][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[9][0][7]/CK (DFFRX4)            0.00 #     1.00 r
+  diff_reg[9][0][7]/QN (DFFRX4)            0.14       1.14 r
+  U11836/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[9][0][7]/D (DFFRX1)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[9][0][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[12][3][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[12][3][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[12][3][7]/CK (DFFRX4)           0.00 #     1.00 r
+  diff_reg[12][3][7]/QN (DFFRX4)           0.14       1.14 r
+  U11642/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[12][3][7]/D (DFFRX1)         0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[12][3][7]/CK (DFFRX1)        0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[1][9][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[1][9][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[1][9][7]/CK (DFFRX4)            0.00 #     1.00 r
+  diff_reg[1][9][7]/QN (DFFRX4)            0.14       1.14 r
+  U12203/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[1][9][7]/D (DFFRX1)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[1][9][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: diff_reg[0][1][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][1][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  diff_reg[0][1][7]/CK (DFFRX4)            0.00 #     1.00 r
+  diff_reg[0][1][7]/QN (DFFRX4)            0.14       1.14 r
+  U12194/Y (OAI222X1)                      0.03       1.18 f
+  abs_val_reg[0][1][7]/D (DFFRX1)          0.00       1.18 f
+  data arrival time                                   1.18
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][1][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[2][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[2][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[2][4]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[2][4]/Q (DFFRHQX2)           0.12       1.12 r
+  U16004/Y (MX2X1)                         0.06       1.19 r
+  acc_1x4_reg[2][4]/D (DFFRHQX2)           0.00       1.19 r
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[2][4]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_4x4_reg[0][2][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][2][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][2][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][2][1]/Q (DFFRHQX2)        0.12       1.12 r
+  U16024/Y (MX2X1)                         0.06       1.19 r
+  acc_4x4_reg[0][2][1]/D (DFFRHQX2)        0.00       1.19 r
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][2][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: acc_1x4_reg[1][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_1x4_reg[1][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_1x4_reg[1][4]/CK (DFFRHQX2)          0.00 #     1.00 r
+  acc_1x4_reg[1][4]/Q (DFFRHQX2)           0.13       1.13 r
+  U18571/Y (CLKMX2X2)                      0.07       1.19 r
+  acc_1x4_reg[1][4]/D (DFFRHQX2)           0.00       1.19 r
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_1x4_reg[1][4]/CK (DFFRHQX2)          0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: acc_4x4_reg[0][1][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: acc_4x4_reg[0][1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  acc_4x4_reg[0][1][1]/CK (DFFRHQX2)       0.00 #     1.00 r
+  acc_4x4_reg[0][1][1]/Q (DFFRHQX2)        0.13       1.13 r
+  U16686/Y (CLKMX2X2)                      0.07       1.19 r
+  acc_4x4_reg[0][1][1]/D (DFFRHQX2)        0.00       1.19 r
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  acc_4x4_reg[0][1][1]/CK (DFFRHQX2)       0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[1][1][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[1][1][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[1][1][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[1][1][7]/QN (DFFRX1)         0.16       1.16 r
+  U11879/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[1][1][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[1][1][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[1][0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[1][0][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[1][0][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[1][0][7]/QN (DFFRX1)         0.16       1.16 r
+  U12462/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[1][0][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[1][0][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][9][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][9][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][9][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][9][7]/QN (DFFRX1)         0.16       1.16 r
+  U11806/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][9][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][9][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][4][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][4][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][4][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][4][7]/QN (DFFRX1)         0.16       1.16 r
+  U11798/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][4][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][4][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[1][5][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[1][5][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[1][5][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[1][5][7]/QN (DFFRX1)         0.16       1.16 r
+  U11680/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[1][5][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[1][5][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][0][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][0][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][0][7]/QN (DFFRX1)         0.16       1.16 r
+  U11650/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][0][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][0][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][12][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][12][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][12][7]/CK (DFFRX1)        0.00 #     1.00 r
+  abs_val_reg[0][12][7]/QN (DFFRX1)        0.16       1.16 r
+  U11614/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][12][7]/D (DFFRX1)         0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][12][7]/CK (DFFRX1)        0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][15][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][15][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][15][7]/CK (DFFRX1)        0.00 #     1.00 r
+  abs_val_reg[0][15][7]/QN (DFFRX1)        0.16       1.16 r
+  U11568/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][15][7]/D (DFFRX1)         0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][15][7]/CK (DFFRX1)        0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][2][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][2][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][2][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][2][7]/QN (DFFRX1)         0.16       1.16 r
+  U11526/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][2][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][2][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][11][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][11][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][11][7]/CK (DFFRX1)        0.00 #     1.00 r
+  abs_val_reg[0][11][7]/QN (DFFRX1)        0.16       1.16 r
+  U12204/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][11][7]/D (DFFRX1)         0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][11][7]/CK (DFFRX1)        0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][8][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][8][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][8][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][8][7]/QN (DFFRX1)         0.16       1.16 r
+  U12195/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][8][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][8][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+  Startpoint: abs_val_reg[0][5][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: abs_val_reg[0][5][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sad_cal            ForQA                 slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  abs_val_reg[0][5][7]/CK (DFFRX1)         0.00 #     1.00 r
+  abs_val_reg[0][5][7]/QN (DFFRX1)         0.16       1.16 r
+  U12189/Y (OAI222X1)                      0.03       1.19 f
+  abs_val_reg[0][5][7]/D (DFFRX1)          0.00       1.19 f
+  data arrival time                                   1.19
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  clock uncertainty                        0.08       1.08
+  abs_val_reg[0][5][7]/CK (DFFRX1)         0.00       1.08 r
+  library hold time                       -0.01       1.07
+  data required time                                  1.07
+  -----------------------------------------------------------
+  data required time                                  1.07
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.12
+
+
+1

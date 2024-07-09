@@ -1,0 +1,41 @@
+Command: vcs -full64 -debug_access+all -line +vcsd +vpi +plusarg_save -Mupdate +cli+3 \
++error+10 +v2k +ntb_exit_on_error=10 -timescale=1ns/100ps -negdelay +neg_tchk +memcbk \
++sdfverbose +define+ +warn=all +warn=noTFIPC +nospecify +warn=noWSUM -l vcs.log -f \
+./flist.f
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Thu Jun 27 10:18:34 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '+cli+3' will be deprecated in a future release.  Please use 
+  '-debug_access+pp+fn+nomemcbk -debug_region+cell+encrypt' instead.
+
+Parsing design file './top.v'
+Parsing design file './tb.v'
+Top Level Modules:
+       my_tb
+TimeScale is 1 ns / 100 ps
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module my_tb
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic  -Wl,-rpath=/opt/Synopsys/VCS2018/vcs/O-2018.09-SP2/linux64/lib \
+-L/opt/Synopsys/VCS2018/vcs/O-2018.09-SP2/linux64/lib     _41808_archive_1.so _csrc0.so \
+SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs \
+-lvcsnew -lsimprofile -luclinative /opt/Synopsys/VCS2018/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /opt/Synopsys/VCS2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o \
+/opt/Synopsys/Verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl \
+-lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .127 seconds to compile + .137 seconds to elab + .117 seconds to link

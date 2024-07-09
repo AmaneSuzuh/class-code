@@ -1,0 +1,3 @@
+Command Line: /opt/Synopsys/Verdi2018/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -f flist.f -2001 -top tb
+uname(Linux amanesuzuha 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 x86_64)
+au time 157.828386 19.866890 18.071024 delta 1189019648 1189019648 total 1614102528 1614102528

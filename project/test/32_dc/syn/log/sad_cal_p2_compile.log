@@ -1,0 +1,857 @@
+
+Information: There are 3065 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+  Mapping 'sad_cal_DW01_add_0'
+  Mapping 'sad_cal_DW01_add_1'
+  Mapping 'sad_cal_DW01_add_2'
+  Mapping 'sad_cal_DW01_add_3'
+  Mapping 'sad_cal_DW01_add_4'
+  Mapping 'sad_cal_DW01_add_5'
+  Mapping 'sad_cal_DW01_add_6'
+  Mapping 'sad_cal_DW01_add_7'
+  Mapping 'sad_cal_DW01_add_8'
+  Mapping 'sad_cal_DW01_add_9'
+  Mapping 'sad_cal_DW01_add_10'
+  Mapping 'sad_cal_DW01_add_11'
+  Mapping 'sad_cal_DW01_add_12'
+  Mapping 'sad_cal_DW01_add_13'
+  Mapping 'sad_cal_DW01_add_14'
+  Mapping 'sad_cal_DW01_add_15'
+  Mapping 'sad_cal_DW01_add_16'
+  Mapping 'sad_cal_DW01_add_17'
+  Mapping 'sad_cal_DW01_add_18'
+  Mapping 'sad_cal_DW01_add_19'
+  Mapping 'sad_cal_DW01_add_20'
+  Mapping 'sad_cal_DW01_add_21'
+  Mapping 'sad_cal_DW01_add_22'
+  Mapping 'sad_cal_DW01_add_23'
+  Mapping 'sad_cal_DW01_add_24'
+  Mapping 'sad_cal_DW01_add_25'
+  Mapping 'sad_cal_DW01_add_26'
+  Mapping 'sad_cal_DW01_add_27'
+  Mapping 'sad_cal_DW01_add_28'
+  Mapping 'sad_cal_DW01_add_29'
+  Mapping 'sad_cal_DW01_add_30'
+  Mapping 'sad_cal_DW01_add_31'
+  Mapping 'sad_cal_DW01_add_32'
+  Mapping 'sad_cal_DW01_add_33'
+  Mapping 'sad_cal_DW01_add_34'
+  Mapping 'sad_cal_DW01_add_35'
+  Mapping 'sad_cal_DW01_add_36'
+  Mapping 'sad_cal_DW01_add_37'
+  Mapping 'sad_cal_DW01_add_38'
+  Mapping 'sad_cal_DW01_add_39'
+  Mapping 'sad_cal_DW01_add_40'
+  Mapping 'sad_cal_DW01_add_41'
+  Mapping 'sad_cal_DW01_add_42'
+  Mapping 'sad_cal_DW01_add_43'
+  Mapping 'sad_cal_DW01_add_44'
+  Mapping 'sad_cal_DW01_add_45'
+  Mapping 'sad_cal_DW01_add_46'
+  Mapping 'sad_cal_DW01_add_47'
+  Mapping 'sad_cal_DW01_add_48'
+  Mapping 'sad_cal_DW01_add_49'
+  Mapping 'sad_cal_DW01_add_50'
+  Mapping 'sad_cal_DW01_add_51'
+  Mapping 'sad_cal_DW01_add_52'
+  Mapping 'sad_cal_DW01_add_53'
+  Mapping 'sad_cal_DW01_add_54'
+  Mapping 'sad_cal_DW01_add_55'
+  Mapping 'sad_cal_DW01_add_56'
+  Mapping 'sad_cal_DW01_add_57'
+  Mapping 'sad_cal_DW01_add_58'
+  Mapping 'sad_cal_DW01_add_59'
+  Mapping 'sad_cal_DW01_add_60'
+  Mapping 'sad_cal_DW01_add_61'
+  Mapping 'sad_cal_DW01_add_62'
+  Mapping 'sad_cal_DW01_add_63'
+  Mapping 'sad_cal_DW01_add_64'
+  Mapping 'sad_cal_DW01_add_65'
+  Mapping 'sad_cal_DW01_add_66'
+  Mapping 'sad_cal_DW01_add_67'
+  Mapping 'sad_cal_DW01_add_68'
+  Mapping 'sad_cal_DW01_add_69'
+  Mapping 'sad_cal_DW01_add_70'
+  Mapping 'sad_cal_DW01_add_71'
+  Mapping 'sad_cal_DW01_add_72'
+  Mapping 'sad_cal_DW01_add_73'
+  Mapping 'sad_cal_DW01_add_74'
+  Mapping 'sad_cal_DW01_add_75'
+  Mapping 'sad_cal_DW01_add_76'
+  Mapping 'sad_cal_DW01_add_77'
+  Mapping 'sad_cal_DW01_add_78'
+  Mapping 'sad_cal_DW01_add_79'
+  Mapping 'sad_cal_DW01_add_80'
+  Mapping 'sad_cal_DW01_add_81'
+  Mapping 'sad_cal_DW01_add_82'
+  Mapping 'sad_cal_DW01_add_83'
+  Mapping 'sad_cal_DW01_add_84'
+  Mapping 'sad_cal_DW01_add_85'
+  Mapping 'sad_cal_DW01_add_86'
+  Mapping 'sad_cal_DW01_add_87'
+  Mapping 'sad_cal_DW01_add_88'
+  Mapping 'sad_cal_DW01_add_89'
+  Mapping 'sad_cal_DW01_add_90'
+  Mapping 'sad_cal_DW01_add_91'
+  Mapping 'sad_cal_DW01_add_92'
+  Mapping 'sad_cal_DW01_add_93'
+  Mapping 'sad_cal_DW01_add_94'
+  Mapping 'sad_cal_DW01_add_95'
+  Mapping 'sad_cal_DW01_add_96'
+  Mapping 'sad_cal_DW01_add_97'
+  Mapping 'sad_cal_DW01_add_98'
+  Mapping 'sad_cal_DW01_add_99'
+  Mapping 'sad_cal_DW01_add_100'
+  Mapping 'sad_cal_DW01_add_101'
+  Mapping 'sad_cal_DW01_add_102'
+  Mapping 'sad_cal_DW01_add_103'
+  Mapping 'sad_cal_DW01_add_104'
+  Mapping 'sad_cal_DW01_add_105'
+  Mapping 'sad_cal_DW01_add_106'
+  Mapping 'sad_cal_DW01_add_107'
+  Mapping 'sad_cal_DW01_add_108'
+  Mapping 'sad_cal_DW01_add_109'
+  Mapping 'sad_cal_DW01_add_110'
+  Mapping 'sad_cal_DW01_add_111'
+  Mapping 'sad_cal_DW01_add_112'
+  Mapping 'sad_cal_DW01_add_113'
+  Mapping 'sad_cal_DW01_add_114'
+  Mapping 'sad_cal_DW01_add_115'
+  Mapping 'sad_cal_DW01_add_116'
+  Mapping 'sad_cal_DW01_add_117'
+  Mapping 'sad_cal_DW01_add_118'
+  Mapping 'sad_cal_DW01_add_119'
+  Mapping 'sad_cal_DW01_add_120'
+  Mapping 'sad_cal_DW01_add_121'
+  Mapping 'sad_cal_DW01_add_122'
+  Mapping 'sad_cal_DW01_add_123'
+  Mapping 'sad_cal_DW01_add_124'
+  Mapping 'sad_cal_DW01_add_125'
+  Mapping 'sad_cal_DW01_add_126'
+  Mapping 'sad_cal_DW01_add_127'
+  Mapping 'sad_cal_DW01_add_128'
+  Mapping 'sad_cal_DW01_add_129'
+  Mapping 'sad_cal_DW01_add_130'
+  Mapping 'sad_cal_DW01_add_131'
+  Mapping 'sad_cal_DW01_add_132'
+  Mapping 'sad_cal_DW01_add_133'
+  Mapping 'sad_cal_DW01_add_134'
+  Mapping 'sad_cal_DW01_add_135'
+  Mapping 'sad_cal_DW01_add_136'
+  Mapping 'sad_cal_DW01_add_137'
+  Mapping 'sad_cal_DW01_add_138'
+  Mapping 'sad_cal_DW01_add_139'
+  Mapping 'sad_cal_DW01_add_140'
+  Mapping 'sad_cal_DW01_add_141'
+  Mapping 'sad_cal_DW01_add_142'
+  Mapping 'sad_cal_DW01_add_143'
+  Mapping 'sad_cal_DW01_add_144'
+  Mapping 'sad_cal_DW01_add_145'
+  Mapping 'sad_cal_DW01_add_146'
+  Mapping 'sad_cal_DW01_add_147'
+  Mapping 'sad_cal_DW01_add_148'
+  Mapping 'sad_cal_DW01_add_149'
+  Mapping 'sad_cal_DW01_add_150'
+  Mapping 'sad_cal_DW01_add_151'
+  Mapping 'sad_cal_DW01_add_152'
+  Mapping 'sad_cal_DW01_add_153'
+  Mapping 'sad_cal_DW01_add_154'
+  Mapping 'sad_cal_DW01_add_155'
+  Mapping 'sad_cal_DW01_add_156'
+  Mapping 'sad_cal_DW01_add_157'
+  Mapping 'sad_cal_DW01_add_158'
+  Mapping 'sad_cal_DW01_add_159'
+  Mapping 'sad_cal_DW01_add_160'
+  Mapping 'sad_cal_DW01_add_161'
+  Mapping 'sad_cal_DW01_add_162'
+  Mapping 'sad_cal_DW01_add_163'
+  Mapping 'sad_cal_DW01_add_164'
+  Mapping 'sad_cal_DW01_add_165'
+  Mapping 'sad_cal_DW01_add_166'
+  Mapping 'sad_cal_DW01_add_167'
+  Mapping 'sad_cal_DW01_add_168'
+  Mapping 'sad_cal_DW01_add_169'
+  Mapping 'sad_cal_DW01_add_170'
+  Mapping 'sad_cal_DW01_add_171'
+  Mapping 'sad_cal_DW01_add_172'
+  Mapping 'sad_cal_DW01_add_173'
+  Mapping 'sad_cal_DW01_add_174'
+  Mapping 'sad_cal_DW01_add_175'
+  Mapping 'sad_cal_DW01_add_176'
+  Mapping 'sad_cal_DW01_add_177'
+  Mapping 'sad_cal_DW01_add_178'
+  Mapping 'sad_cal_DW01_add_179'
+  Mapping 'sad_cal_DW01_add_180'
+  Mapping 'sad_cal_DW01_add_181'
+  Mapping 'sad_cal_DW01_add_182'
+  Mapping 'sad_cal_DW01_add_183'
+  Mapping 'sad_cal_DW01_add_184'
+  Mapping 'sad_cal_DW01_add_185'
+  Mapping 'sad_cal_DW01_add_186'
+  Mapping 'sad_cal_DW01_add_187'
+  Mapping 'sad_cal_DW01_add_188'
+  Mapping 'sad_cal_DW01_add_189'
+  Mapping 'sad_cal_DW01_add_190'
+  Mapping 'sad_cal_DW01_add_191'
+  Mapping 'sad_cal_DW01_add_192'
+  Mapping 'sad_cal_DW01_add_193'
+  Mapping 'sad_cal_DW01_add_194'
+  Mapping 'sad_cal_DW01_add_195'
+  Mapping 'sad_cal_DW01_add_196'
+  Mapping 'sad_cal_DW01_add_197'
+  Mapping 'sad_cal_DW01_add_198'
+  Mapping 'sad_cal_DW01_add_199'
+  Mapping 'sad_cal_DW01_add_200'
+  Mapping 'sad_cal_DW01_add_201'
+  Mapping 'sad_cal_DW01_add_202'
+  Mapping 'sad_cal_DW01_add_203'
+  Mapping 'sad_cal_DW01_add_204'
+  Mapping 'sad_cal_DW01_add_205'
+  Mapping 'sad_cal_DW01_add_206'
+  Mapping 'sad_cal_DW01_add_207'
+  Mapping 'sad_cal_DW01_add_208'
+  Mapping 'sad_cal_DW01_add_209'
+  Mapping 'sad_cal_DW01_add_210'
+  Mapping 'sad_cal_DW01_add_211'
+  Mapping 'sad_cal_DW01_add_212'
+  Mapping 'sad_cal_DW01_add_213'
+  Mapping 'sad_cal_DW01_add_214'
+  Mapping 'sad_cal_DW01_add_215'
+  Mapping 'sad_cal_DW01_add_216'
+  Mapping 'sad_cal_DW01_add_217'
+  Mapping 'sad_cal_DW01_add_218'
+  Mapping 'sad_cal_DW01_add_219'
+  Mapping 'sad_cal_DW01_add_220'
+  Mapping 'sad_cal_DW01_add_221'
+  Mapping 'sad_cal_DW01_add_222'
+  Mapping 'sad_cal_DW01_add_223'
+  Mapping 'sad_cal_DW01_add_224'
+  Mapping 'sad_cal_DW01_add_225'
+  Mapping 'sad_cal_DW01_add_226'
+  Mapping 'sad_cal_DW01_add_227'
+  Mapping 'sad_cal_DW01_add_228'
+  Mapping 'sad_cal_DW01_add_229'
+  Mapping 'sad_cal_DW01_add_230'
+  Mapping 'sad_cal_DW01_add_231'
+  Mapping 'sad_cal_DW01_add_232'
+  Mapping 'sad_cal_DW01_add_233'
+  Mapping 'sad_cal_DW01_add_234'
+  Mapping 'sad_cal_DW01_add_235'
+  Mapping 'sad_cal_DW01_add_236'
+  Mapping 'sad_cal_DW01_add_237'
+  Mapping 'sad_cal_DW01_add_238'
+  Mapping 'sad_cal_DW01_add_239'
+  Mapping 'sad_cal_DW01_add_240'
+  Mapping 'sad_cal_DW01_add_241'
+  Mapping 'sad_cal_DW01_add_242'
+  Mapping 'sad_cal_DW01_add_243'
+  Mapping 'sad_cal_DW01_add_244'
+  Mapping 'sad_cal_DW01_add_245'
+  Mapping 'sad_cal_DW01_add_246'
+  Mapping 'sad_cal_DW01_add_247'
+  Mapping 'sad_cal_DW01_add_248'
+  Mapping 'sad_cal_DW01_add_249'
+  Mapping 'sad_cal_DW01_add_250'
+  Mapping 'sad_cal_DW01_add_251'
+  Mapping 'sad_cal_DW01_add_252'
+  Mapping 'sad_cal_DW01_add_253'
+  Mapping 'sad_cal_DW01_add_254'
+  Mapping 'sad_cal_DW01_sub_0'
+  Mapping 'sad_cal_DW01_sub_1'
+  Mapping 'sad_cal_DW01_sub_2'
+  Mapping 'sad_cal_DW01_sub_3'
+  Mapping 'sad_cal_DW01_sub_4'
+  Mapping 'sad_cal_DW01_sub_5'
+  Mapping 'sad_cal_DW01_sub_6'
+  Mapping 'sad_cal_DW01_sub_7'
+  Mapping 'sad_cal_DW01_sub_8'
+  Mapping 'sad_cal_DW01_sub_9'
+  Mapping 'sad_cal_DW01_sub_10'
+  Mapping 'sad_cal_DW01_sub_11'
+  Mapping 'sad_cal_DW01_sub_12'
+  Mapping 'sad_cal_DW01_sub_13'
+  Mapping 'sad_cal_DW01_sub_14'
+  Mapping 'sad_cal_DW01_sub_15'
+  Mapping 'sad_cal_DW01_sub_16'
+  Mapping 'sad_cal_DW01_sub_17'
+  Mapping 'sad_cal_DW01_sub_18'
+  Mapping 'sad_cal_DW01_sub_19'
+  Mapping 'sad_cal_DW01_sub_20'
+  Mapping 'sad_cal_DW01_sub_21'
+  Mapping 'sad_cal_DW01_sub_22'
+  Mapping 'sad_cal_DW01_sub_23'
+  Mapping 'sad_cal_DW01_sub_24'
+  Mapping 'sad_cal_DW01_sub_25'
+  Mapping 'sad_cal_DW01_sub_26'
+  Mapping 'sad_cal_DW01_sub_27'
+  Mapping 'sad_cal_DW01_sub_28'
+  Mapping 'sad_cal_DW01_sub_29'
+  Mapping 'sad_cal_DW01_sub_30'
+  Mapping 'sad_cal_DW01_sub_31'
+  Mapping 'sad_cal_DW01_sub_32'
+  Mapping 'sad_cal_DW01_sub_33'
+  Mapping 'sad_cal_DW01_sub_34'
+  Mapping 'sad_cal_DW01_sub_35'
+  Mapping 'sad_cal_DW01_sub_36'
+  Mapping 'sad_cal_DW01_sub_37'
+  Mapping 'sad_cal_DW01_sub_38'
+  Mapping 'sad_cal_DW01_sub_39'
+  Mapping 'sad_cal_DW01_sub_40'
+  Mapping 'sad_cal_DW01_sub_41'
+  Mapping 'sad_cal_DW01_sub_42'
+  Mapping 'sad_cal_DW01_sub_43'
+  Mapping 'sad_cal_DW01_sub_44'
+  Mapping 'sad_cal_DW01_sub_45'
+  Mapping 'sad_cal_DW01_sub_46'
+  Mapping 'sad_cal_DW01_sub_47'
+  Mapping 'sad_cal_DW01_sub_48'
+  Mapping 'sad_cal_DW01_sub_49'
+  Mapping 'sad_cal_DW01_sub_50'
+  Mapping 'sad_cal_DW01_sub_51'
+  Mapping 'sad_cal_DW01_sub_52'
+  Mapping 'sad_cal_DW01_sub_53'
+  Mapping 'sad_cal_DW01_sub_54'
+  Mapping 'sad_cal_DW01_sub_55'
+  Mapping 'sad_cal_DW01_sub_56'
+  Mapping 'sad_cal_DW01_sub_57'
+  Mapping 'sad_cal_DW01_sub_58'
+  Mapping 'sad_cal_DW01_sub_59'
+  Mapping 'sad_cal_DW01_sub_60'
+  Mapping 'sad_cal_DW01_sub_61'
+  Mapping 'sad_cal_DW01_sub_62'
+  Mapping 'sad_cal_DW01_sub_63'
+  Mapping 'sad_cal_DW01_sub_64'
+  Mapping 'sad_cal_DW01_sub_65'
+  Mapping 'sad_cal_DW01_sub_66'
+  Mapping 'sad_cal_DW01_sub_67'
+  Mapping 'sad_cal_DW01_sub_68'
+  Mapping 'sad_cal_DW01_sub_69'
+  Mapping 'sad_cal_DW01_sub_70'
+  Mapping 'sad_cal_DW01_sub_71'
+  Mapping 'sad_cal_DW01_sub_72'
+  Mapping 'sad_cal_DW01_sub_73'
+  Mapping 'sad_cal_DW01_sub_74'
+  Mapping 'sad_cal_DW01_sub_75'
+  Mapping 'sad_cal_DW01_sub_76'
+  Mapping 'sad_cal_DW01_sub_77'
+  Mapping 'sad_cal_DW01_sub_78'
+  Mapping 'sad_cal_DW01_sub_79'
+  Mapping 'sad_cal_DW01_sub_80'
+  Mapping 'sad_cal_DW01_sub_81'
+  Mapping 'sad_cal_DW01_sub_82'
+  Mapping 'sad_cal_DW01_sub_83'
+  Mapping 'sad_cal_DW01_sub_84'
+  Mapping 'sad_cal_DW01_sub_85'
+  Mapping 'sad_cal_DW01_sub_86'
+  Mapping 'sad_cal_DW01_sub_87'
+  Mapping 'sad_cal_DW01_sub_88'
+  Mapping 'sad_cal_DW01_sub_89'
+  Mapping 'sad_cal_DW01_sub_90'
+  Mapping 'sad_cal_DW01_sub_91'
+  Mapping 'sad_cal_DW01_sub_92'
+  Mapping 'sad_cal_DW01_sub_93'
+  Mapping 'sad_cal_DW01_sub_94'
+  Mapping 'sad_cal_DW01_sub_95'
+  Mapping 'sad_cal_DW01_sub_96'
+  Mapping 'sad_cal_DW01_sub_97'
+  Mapping 'sad_cal_DW01_sub_98'
+  Mapping 'sad_cal_DW01_sub_99'
+  Mapping 'sad_cal_DW01_sub_100'
+  Mapping 'sad_cal_DW01_sub_101'
+  Mapping 'sad_cal_DW01_sub_102'
+  Mapping 'sad_cal_DW01_sub_103'
+  Mapping 'sad_cal_DW01_sub_104'
+  Mapping 'sad_cal_DW01_sub_105'
+  Mapping 'sad_cal_DW01_sub_106'
+  Mapping 'sad_cal_DW01_sub_107'
+  Mapping 'sad_cal_DW01_sub_108'
+  Mapping 'sad_cal_DW01_sub_109'
+  Mapping 'sad_cal_DW01_sub_110'
+  Mapping 'sad_cal_DW01_sub_111'
+  Mapping 'sad_cal_DW01_sub_112'
+  Mapping 'sad_cal_DW01_sub_113'
+  Mapping 'sad_cal_DW01_sub_114'
+  Mapping 'sad_cal_DW01_sub_115'
+  Mapping 'sad_cal_DW01_sub_116'
+  Mapping 'sad_cal_DW01_sub_117'
+  Mapping 'sad_cal_DW01_sub_118'
+  Mapping 'sad_cal_DW01_sub_119'
+  Mapping 'sad_cal_DW01_sub_120'
+  Mapping 'sad_cal_DW01_sub_121'
+  Mapping 'sad_cal_DW01_sub_122'
+  Mapping 'sad_cal_DW01_sub_123'
+  Mapping 'sad_cal_DW01_sub_124'
+  Mapping 'sad_cal_DW01_sub_125'
+  Mapping 'sad_cal_DW01_sub_126'
+  Mapping 'sad_cal_DW01_sub_127'
+  Mapping 'sad_cal_DW01_sub_128'
+  Mapping 'sad_cal_DW01_sub_129'
+  Mapping 'sad_cal_DW01_sub_130'
+  Mapping 'sad_cal_DW01_sub_131'
+  Mapping 'sad_cal_DW01_sub_132'
+  Mapping 'sad_cal_DW01_sub_133'
+  Mapping 'sad_cal_DW01_sub_134'
+  Mapping 'sad_cal_DW01_sub_135'
+  Mapping 'sad_cal_DW01_sub_136'
+  Mapping 'sad_cal_DW01_sub_137'
+  Mapping 'sad_cal_DW01_sub_138'
+  Mapping 'sad_cal_DW01_sub_139'
+  Mapping 'sad_cal_DW01_sub_140'
+  Mapping 'sad_cal_DW01_sub_141'
+  Mapping 'sad_cal_DW01_sub_142'
+  Mapping 'sad_cal_DW01_sub_143'
+  Mapping 'sad_cal_DW01_sub_144'
+  Mapping 'sad_cal_DW01_sub_145'
+  Mapping 'sad_cal_DW01_sub_146'
+  Mapping 'sad_cal_DW01_sub_147'
+  Mapping 'sad_cal_DW01_sub_148'
+  Mapping 'sad_cal_DW01_sub_149'
+  Mapping 'sad_cal_DW01_sub_150'
+  Mapping 'sad_cal_DW01_sub_151'
+  Mapping 'sad_cal_DW01_sub_152'
+  Mapping 'sad_cal_DW01_sub_153'
+  Mapping 'sad_cal_DW01_sub_154'
+  Mapping 'sad_cal_DW01_sub_155'
+  Mapping 'sad_cal_DW01_sub_156'
+  Mapping 'sad_cal_DW01_sub_157'
+  Mapping 'sad_cal_DW01_sub_158'
+  Mapping 'sad_cal_DW01_sub_159'
+  Mapping 'sad_cal_DW01_sub_160'
+  Mapping 'sad_cal_DW01_sub_161'
+  Mapping 'sad_cal_DW01_sub_162'
+  Mapping 'sad_cal_DW01_sub_163'
+  Mapping 'sad_cal_DW01_sub_164'
+  Mapping 'sad_cal_DW01_sub_165'
+  Mapping 'sad_cal_DW01_sub_166'
+  Mapping 'sad_cal_DW01_sub_167'
+  Mapping 'sad_cal_DW01_sub_168'
+  Mapping 'sad_cal_DW01_sub_169'
+  Mapping 'sad_cal_DW01_sub_170'
+  Mapping 'sad_cal_DW01_sub_171'
+  Mapping 'sad_cal_DW01_sub_172'
+  Mapping 'sad_cal_DW01_sub_173'
+  Mapping 'sad_cal_DW01_sub_174'
+  Mapping 'sad_cal_DW01_sub_175'
+  Mapping 'sad_cal_DW01_sub_176'
+  Mapping 'sad_cal_DW01_sub_177'
+  Mapping 'sad_cal_DW01_sub_178'
+  Mapping 'sad_cal_DW01_sub_179'
+  Mapping 'sad_cal_DW01_sub_180'
+  Mapping 'sad_cal_DW01_sub_181'
+  Mapping 'sad_cal_DW01_sub_182'
+  Mapping 'sad_cal_DW01_sub_183'
+  Mapping 'sad_cal_DW01_sub_184'
+  Mapping 'sad_cal_DW01_sub_185'
+  Mapping 'sad_cal_DW01_sub_186'
+  Mapping 'sad_cal_DW01_sub_187'
+  Mapping 'sad_cal_DW01_sub_188'
+  Mapping 'sad_cal_DW01_sub_189'
+  Mapping 'sad_cal_DW01_sub_190'
+  Mapping 'sad_cal_DW01_sub_191'
+  Mapping 'sad_cal_DW01_sub_192'
+  Mapping 'sad_cal_DW01_sub_193'
+  Mapping 'sad_cal_DW01_sub_194'
+  Mapping 'sad_cal_DW01_sub_195'
+  Mapping 'sad_cal_DW01_sub_196'
+  Mapping 'sad_cal_DW01_sub_197'
+  Mapping 'sad_cal_DW01_sub_198'
+  Mapping 'sad_cal_DW01_sub_199'
+  Mapping 'sad_cal_DW01_sub_200'
+  Mapping 'sad_cal_DW01_sub_201'
+  Mapping 'sad_cal_DW01_sub_202'
+  Mapping 'sad_cal_DW01_sub_203'
+  Mapping 'sad_cal_DW01_sub_204'
+  Mapping 'sad_cal_DW01_sub_205'
+  Mapping 'sad_cal_DW01_sub_206'
+  Mapping 'sad_cal_DW01_sub_207'
+  Mapping 'sad_cal_DW01_sub_208'
+  Mapping 'sad_cal_DW01_sub_209'
+  Mapping 'sad_cal_DW01_sub_210'
+  Mapping 'sad_cal_DW01_sub_211'
+  Mapping 'sad_cal_DW01_sub_212'
+  Mapping 'sad_cal_DW01_sub_213'
+  Mapping 'sad_cal_DW01_sub_214'
+  Mapping 'sad_cal_DW01_sub_215'
+  Mapping 'sad_cal_DW01_sub_216'
+  Mapping 'sad_cal_DW01_sub_217'
+  Mapping 'sad_cal_DW01_sub_218'
+  Mapping 'sad_cal_DW01_sub_219'
+  Mapping 'sad_cal_DW01_sub_220'
+  Mapping 'sad_cal_DW01_sub_221'
+  Mapping 'sad_cal_DW01_sub_222'
+  Mapping 'sad_cal_DW01_sub_223'
+  Mapping 'sad_cal_DW01_sub_224'
+  Mapping 'sad_cal_DW01_sub_225'
+  Mapping 'sad_cal_DW01_sub_226'
+  Mapping 'sad_cal_DW01_sub_227'
+  Mapping 'sad_cal_DW01_sub_228'
+  Mapping 'sad_cal_DW01_sub_229'
+  Mapping 'sad_cal_DW01_sub_230'
+  Mapping 'sad_cal_DW01_sub_231'
+  Mapping 'sad_cal_DW01_sub_232'
+  Mapping 'sad_cal_DW01_sub_233'
+  Mapping 'sad_cal_DW01_sub_234'
+  Mapping 'sad_cal_DW01_sub_235'
+  Mapping 'sad_cal_DW01_sub_236'
+  Mapping 'sad_cal_DW01_sub_237'
+  Mapping 'sad_cal_DW01_sub_238'
+  Mapping 'sad_cal_DW01_sub_239'
+  Mapping 'sad_cal_DW01_sub_240'
+  Mapping 'sad_cal_DW01_sub_241'
+  Mapping 'sad_cal_DW01_sub_242'
+  Mapping 'sad_cal_DW01_sub_243'
+  Mapping 'sad_cal_DW01_sub_244'
+  Mapping 'sad_cal_DW01_sub_245'
+  Mapping 'sad_cal_DW01_sub_246'
+  Mapping 'sad_cal_DW01_sub_247'
+  Mapping 'sad_cal_DW01_sub_248'
+  Mapping 'sad_cal_DW01_sub_249'
+  Mapping 'sad_cal_DW01_sub_250'
+  Mapping 'sad_cal_DW01_sub_251'
+  Mapping 'sad_cal_DW01_sub_252'
+  Mapping 'sad_cal_DW01_sub_253'
+  Mapping 'sad_cal_DW01_sub_254'
+  Mapping 'sad_cal_DW01_sub_255'
+  Selecting implementations
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:25  587136.8      0.00       0.0       0.0                          
+    0:00:25  587136.8      0.00       0.0       0.0                          
+    0:00:25  587136.8      0.00       0.0       0.0                          
+    0:00:25  587136.8      0.00       0.0       0.0                          
+    0:00:26  587136.8      0.00       0.0       0.0                          
+    0:00:27  578741.4      0.23      36.7       0.0                          
+    0:00:28  577534.6      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577483.7      0.17      37.2       0.0                          
+    0:00:28  577942.0      0.09      32.9       0.0 diff_reg[3][15][4]/D     
+    0:00:28  578223.7      0.07      29.5       0.0 diff_reg[14][9][7]/D     
+    0:00:28  578425.7      0.06      26.5       0.0 acc_1x4_reg[1][12]/D     
+    0:00:28  578850.1      0.06      23.7       0.0 diff_reg[7][15][4]/D     
+    0:00:28  579104.7      0.05      21.0       0.0 diff_reg[8][4][8]/D      
+    0:00:29  579425.5      0.05      19.4       0.0 acc_4x16_reg[4][1][7]/D  
+    0:00:29  579546.0      0.04      18.5       0.0 acc_4x16_reg[14][3][8]/D 
+    0:00:29  579620.7      0.04      17.8       0.0 diff_reg[11][11][4]/D    
+    0:00:29  579693.7      0.04      17.1       0.0 diff_reg[7][7][4]/D      
+    0:00:29  579819.3      0.04      16.2       0.0 diff_reg[5][1][6]/D      
+    0:00:29  579829.5      0.04      16.0       0.0 diff_reg[12][4][8]/D     
+    0:00:29  579902.5      0.04      15.6       0.0 diff_reg[10][2][6]/D     
+    0:00:29  579977.1      0.04      15.0       0.0 diff_reg[11][12][4]/D    
+    0:00:29  580017.9      0.04      14.7       0.0 diff_reg[1][15][4]/D     
+    0:00:29  580126.5      0.03      14.1       0.0 diff_reg[11][12][4]/D    
+    0:00:29  580278.6      0.03      13.6       0.0 acc_4x4_reg[0][2][7]/D   
+    0:00:29  580324.4      0.03      13.3       0.0 acc_4x16_reg[11][3][9]/D 
+    0:00:29  580356.7      0.03      12.9       0.0 diff_reg[5][1][6]/D      
+    0:00:29  580360.1      0.03      12.9       0.0 diff_reg[15][1][6]/D     
+    0:00:29  580448.3      0.03      12.0       0.0 diff_reg[11][12][3]/D    
+    0:00:29  580487.4      0.03      11.8       0.0 acc_4x16_reg[15][1][8]/D 
+    0:00:29  580534.9      0.03      11.4       0.0 diff_reg[0][10][6]/D     
+    0:00:30  580680.2      0.03      11.0       0.3 acc_4x16_reg[5][3][8]/D  
+    0:00:30  580748.1      0.03      10.4       0.3 diff_reg[4][2][8]/D      
+    0:00:30  580778.6      0.03      10.3       0.3 diff_reg[12][5][4]/D     
+    0:00:30  580900.8      0.03      10.2       0.3 diff_reg[7][13][4]/D     
+    0:00:30  580936.5      0.03       9.9       0.3                          
+    0:00:30  581002.7      0.03       9.5       0.3                          
+    0:00:30  581102.8      0.03       9.3       0.3                          
+    0:00:30  581145.3      0.03       8.9       0.3                          
+    0:00:30  581225.0      0.02       8.6       0.3                          
+    0:00:30  581393.1      0.02       7.7       0.3                          
+    0:00:30  581466.1      0.02       7.5       0.3                          
+    0:00:31  581586.6      0.02       7.3       0.3                          
+    0:00:31  581679.9      0.02       6.9       0.3                          
+    0:00:31  581754.6      0.02       6.7       0.3                          
+    0:00:31  581778.4      0.02       6.5       0.3                          
+    0:00:31  581858.2      0.02       6.3       0.3                          
+    0:00:31  582036.4      0.02       5.6       0.3                          
+    0:00:31  582082.2      0.02       5.4       0.3                          
+    0:00:31  582131.4      0.02       5.2       0.3                          
+    0:00:31  582163.7      0.02       5.1       0.3                          
+    0:00:31  582214.6      0.02       5.0       0.3                          
+    0:00:31  582267.2      0.02       4.8       0.3                          
+    0:00:31  582333.4      0.01       4.6       0.3                          
+    0:00:31  582387.7      0.01       4.4       0.3                          
+    0:00:31  582411.5      0.01       4.3       0.3                          
+    0:00:31  582443.8      0.01       4.1       0.3                          
+    0:00:31  582501.5      0.01       4.0       0.3                          
+    0:00:31  582593.1      0.01       3.9       0.3                          
+    0:00:31  582698.4      0.01       3.7       0.3                          
+    0:00:31  582783.2      0.01       3.6       0.3                          
+    0:00:32  582897.0      0.01       3.2       0.3                          
+    0:00:32  582963.2      0.01       3.1       0.3                          
+    0:00:32  583046.3      0.01       2.9       0.3                          
+    0:00:32  583076.9      0.01       2.8       0.3                          
+    0:00:32  583076.9      0.01       2.8       0.3                          
+    0:00:32  583095.6      0.01       2.8       0.3                          
+    0:00:32  583158.4      0.01       2.6       0.3                          
+    0:00:32  583204.2      0.01       2.5       0.3                          
+    0:00:32  583277.2      0.01       2.2       0.3                          
+    0:00:32  583372.2      0.01       2.1       0.3                          
+    0:00:32  583431.7      0.01       2.0       0.3                          
+    0:00:32  583469.0      0.01       1.9       0.3                          
+    0:00:32  583533.5      0.01       1.8       0.3                          
+    0:00:32  583567.4      0.01       1.7       0.3                          
+    0:00:32  583618.4      0.01       1.6       0.3                          
+    0:00:32  583640.4      0.01       1.6       0.3                          
+    0:00:32  583720.2      0.01       1.5       0.3                          
+    0:00:32  583745.7      0.01       1.4       0.3                          
+    0:00:33  583842.4      0.01       1.3       0.3                          
+    0:00:33  583854.3      0.01       1.3       0.3                          
+    0:00:33  583881.5      0.01       1.2       0.3                          
+    0:00:33  583900.1      0.01       1.1       0.3                          
+    0:00:33  583908.6      0.01       1.1       0.3                          
+    0:00:33  583961.2      0.01       1.0       0.3                          
+    0:00:33  583995.2      0.01       0.9       0.3                          
+    0:00:33  584049.5      0.00       0.9       0.3                          
+    0:00:33  584078.4      0.00       0.8       0.3                          
+    0:00:33  584131.0      0.00       0.8       0.3                          
+    0:00:33  584158.1      0.00       0.7       0.3                          
+    0:00:33  584195.5      0.00       0.7       0.3                          
+    0:00:33  584271.9      0.00       0.6       0.3                          
+    0:00:33  584326.2      0.00       0.5       0.3                          
+    0:00:33  584382.2      0.00       0.5       0.3                          
+    0:00:33  584446.7      0.00       0.4       0.3                          
+    0:00:33  584511.2      0.00       0.4       0.3                          
+    0:00:33  584536.7      0.00       0.3       0.3                          
+    0:00:34  584555.3      0.00       0.3       0.3                          
+    0:00:34  584572.3      0.00       0.3       0.3                          
+    0:00:34  584633.4      0.00       0.3       0.3                          
+    0:00:34  584674.1      0.00       0.2       0.3                          
+    0:00:34  584731.9      0.00       0.2       0.3                          
+    0:00:34  584767.5      0.00       0.2       0.3                          
+    0:00:34  584774.3      0.00       0.2       0.3                          
+    0:00:34  584796.4      0.00       0.2       0.3                          
+    0:00:34  584830.3      0.00       0.1       0.3                          
+    0:00:34  584884.6      0.00       0.1       0.3                          
+    0:00:34  584935.5      0.00       0.1       0.3                          
+    0:00:34  585000.0      0.00       0.1       0.3                          
+    0:00:34  585098.5      0.00       0.0       0.3                          
+    0:00:34  585161.3      0.00       0.0       0.3                          
+    0:00:34  585208.8      0.00       0.0       0.3                          
+    0:00:34  585225.8      0.00       0.0       0.3                          
+    0:00:34  585244.5      0.00       0.0       0.3                          
+    0:00:34  585280.1      0.00       0.0       0.3                          
+    0:00:34  585281.8      0.00       0.0       0.3                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:34  585281.8      0.00       0.0       0.3                          
+    0:00:34  585271.6      0.00       0.0       0.3 acc_1x4_reg[3][12]/D     
+    0:00:36  585273.3      0.00       0.0       0.3 acc_1x4_reg[3][12]/D     
+    0:00:36  585285.2      0.00      -0.0       0.3                          
+    0:00:36  585271.6      0.00      -0.0       0.3                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:36  585271.6      0.00      -0.0       0.3                          
+    0:00:36  585279.8      0.00      -0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 0)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:36  585279.8      0.00      -0.0       0.0                          
+    0:00:36  585279.8      0.00      -0.0       0.0                          
+    0:00:42  584655.2      0.05       0.1       0.0                          
+    0:00:44  584631.4      0.05       0.2       0.0                          
+    0:00:44  584621.2      0.05       0.2       0.0                          
+    0:00:44  584611.0      0.05       0.2       0.0                          
+    0:00:44  584604.3      0.05       0.2       0.0                          
+    0:00:44  584597.5      0.05       0.2       0.0                          
+    0:00:44  584590.7      0.05       0.2       0.0                          
+    0:00:44  584583.9      0.05       0.2       0.0                          
+    0:00:44  584577.1      0.05       0.2       0.0                          
+    0:00:44  584552.3      0.05       0.2       0.0                          
+    0:00:45  584545.5      0.05       0.2       0.0                          
+    0:00:45  584538.8      0.05       0.2       0.0                          
+    0:00:45  584532.0      0.05       0.2       0.0                          
+    0:00:45  584525.2      0.05       0.2       0.0                          
+    0:00:45  584518.4      0.05       0.2       0.0                          
+    0:00:45  584464.8      0.05       0.3       0.0                          
+    0:00:45  584464.8      0.05       0.3       0.0                          
+    0:00:45  584536.1      0.01       0.1       0.0 acc_4x4_reg[3][1][11]/D  
+    0:00:45  584553.0      0.00       0.1       0.0                          
+    0:00:45  584568.3      0.00       0.1       0.0                          
+    0:00:45  584603.9      0.00       0.1       0.0                          
+    0:00:45  584637.9      0.00       0.0       0.0                          
+    0:00:45  584648.1      0.00       0.0       0.0                          
+    0:00:45  584663.4      0.00       0.0       0.0                          
+    0:00:45  584692.2      0.00       0.0       0.0                          
+    0:00:45  584704.1      0.00       0.0       0.0                          
+    0:00:45  584727.9      0.00       0.0       0.0                          
+    0:00:45  584724.5      0.00       0.0       0.0                          
+    0:00:45  584753.3      0.00       0.0       0.0                          
+    0:00:46  584778.8      0.00       0.0       0.0                          
+    0:00:46  584799.2      0.00      -0.0       0.0                          
+    0:00:50  584724.5      0.00      -0.0       0.0                          
+    0:00:51  584724.5      0.00      -0.0       0.0                          
+    0:00:51  584705.8      0.00      -0.0       0.0                          
+    0:00:52  584692.2      0.00      -0.0       0.0                          
+    0:00:52  584688.8      0.00      -0.0       0.0                          
+    0:00:52  584680.3      0.00      -0.0       0.0                          
+    0:00:52  584670.1      0.00      -0.0       0.0                          
+    0:00:52  584663.4      0.00      -0.0       0.0                          
+    0:01:03  584643.0      0.00      -0.0       0.0                          
+    0:01:10  584447.8      0.00      -0.0       0.0                          
+    0:01:13  584447.8      0.00      -0.0       0.0                          
+    0:01:28  583637.1      0.02       0.1       0.0                          
+    0:01:35  583150.7      0.02       0.1       0.0                          
+    0:01:38  582790.8      0.01       0.2       0.0                          
+    0:01:39  582520.9      0.01       0.2       0.0                          
+    0:01:41  582419.1      0.01       0.2       0.0                          
+    0:01:41  582352.9      0.01       0.2       0.0                          
+    0:01:42  582293.5      0.01       0.2       0.0                          
+    0:01:42  582225.6      0.01       0.2       0.0                          
+    0:01:42  582184.9      0.01       0.2       0.0                          
+    0:01:43  582137.3      0.01       0.2       0.0                          
+    0:01:43  582088.1      0.01       0.2       0.0                          
+    0:01:43  582038.9      0.01       0.2       0.0                          
+    0:01:44  581991.3      0.01       0.2       0.0                          
+    0:01:44  581942.1      0.01       0.2       0.0                          
+    0:01:44  581899.7      0.01       0.2       0.0                          
+    0:01:44  581852.2      0.01       0.2       0.0                          
+    0:01:44  581852.2      0.01       0.2       0.0                          
+    0:01:45  581852.2      0.01       0.2       0.0                          
+    0:01:46  575763.6      0.18      27.0       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575020.1      0.18      27.6       0.0                          
+    0:01:46  575417.3      0.07      21.8       0.0 acc_4x4_reg[1][1][10]/D  
+    0:01:47  575729.6      0.05      18.3       0.0 diff_reg[3][9][4]/D      
+    0:01:47  575936.7      0.05      17.0       0.0 diff_reg[10][11][4]/D    
+    0:01:47  576052.1      0.04      15.8       0.0 diff_reg[11][4][8]/D     
+    0:01:47  576145.5      0.04      15.3       0.0 diff_reg[1][12][8]/D     
+    0:01:47  576218.5      0.04      14.6       0.0 diff_reg[10][11][4]/D    
+    0:01:47  576276.2      0.04      13.6       0.0 diff_reg[7][9][6]/D      
+    0:01:47  576501.3      0.04      13.0       0.0 diff_reg[4][11][4]/D     
+    0:01:47  576608.2      0.04      12.0       0.0 diff_reg[9][3][5]/D      
+    0:01:47  576721.9      0.03      10.6       0.0 diff_reg[1][10][3]/D     
+    0:01:47  576882.5      0.03       9.2       0.0 diff_reg[1][3][4]/D      
+    0:01:47  577013.2      0.03       8.4       0.0 acc_4x16_reg[6][1][8]/D  
+    0:01:47  577125.2      0.03       7.9       0.0                          
+    0:01:47  577356.1      0.02       7.2       0.0                          
+    0:01:48  577432.4      0.02       6.5       0.0                          
+    0:01:48  577496.9      0.02       6.3       0.0                          
+    0:01:48  577580.1      0.02       5.9       0.0                          
+    0:01:48  577685.3      0.02       5.8       0.0                          
+    0:01:48  577836.4      0.02       5.3       0.0                          
+    0:01:48  577982.4      0.02       4.9       0.0                          
+    0:01:48  578082.5      0.02       4.2       0.0                          
+    0:01:48  578133.5      0.02       4.0       0.0                          
+    0:01:48  578204.8      0.01       3.7       0.0                          
+    0:01:48  578260.8      0.01       3.5       0.0                          
+    0:01:48  578308.3      0.01       3.3       0.0                          
+    0:01:48  578325.3      0.01       3.2       0.0                          
+    0:01:48  578383.0      0.01       3.0       0.0                          
+    0:01:48  578428.8      0.01       2.9       0.0                          
+    0:01:48  578493.3      0.01       2.8       0.0                          
+    0:01:48  578545.9      0.01       2.6       0.0                          
+    0:01:48  578617.2      0.01       2.3       0.0                          
+    0:01:49  578695.3      0.01       2.2       0.0                          
+    0:01:49  578730.9      0.01       2.2       0.0                          
+    0:01:49  578797.1      0.01       2.0       0.0                          
+    0:01:49  578890.5      0.01       1.9       0.0                          
+    0:01:49  578890.5      0.01       1.8       0.0                          
+    0:01:49  578931.2      0.01       1.8       0.0                          
+    0:01:49  578949.9      0.01       1.7       0.0                          
+    0:01:49  579026.3      0.01       1.6       0.0                          
+    0:01:49  579080.6      0.01       1.5       0.0                          
+    0:01:49  579157.0      0.01       1.4       0.0                          
+    0:01:49  579216.4      0.01       1.4       0.0                          
+    0:01:49  579248.7      0.01       1.3       0.0                          
+    0:01:49  579289.4      0.01       1.3       0.0                          
+    0:01:49  579333.5      0.01       1.3       0.0                          
+    0:01:49  579404.8      0.01       1.1       0.0                          
+    0:01:49  579445.6      0.01       1.1       0.0                          
+    0:01:49  579457.4      0.01       1.1       0.0                          
+    0:01:49  579498.2      0.01       1.0       0.0                          
+    0:01:49  579554.2      0.01       0.9       0.0                          
+    0:01:50  579606.8      0.00       0.8       0.0                          
+    0:01:50  579671.3      0.00       0.7       0.0                          
+    0:01:50  579713.7      0.00       0.7       0.0                          
+    0:01:50  579730.7      0.00       0.7       0.0                          
+    0:01:50  579763.0      0.00       0.7       0.0                          
+    0:01:50  579808.8      0.00       0.6       0.0                          
+    0:01:50  579839.3      0.00       0.6       0.0                          
+    0:01:50  579885.2      0.00       0.6       0.0                          
+    0:01:50  579897.1      0.00       0.6       0.0                          
+    0:01:50  579948.0      0.00       0.5       0.0                          
+    0:01:50  579971.7      0.00       0.5       0.0                          
+    0:01:50  580044.7      0.00       0.4       0.0                          
+    0:01:50  580102.4      0.00       0.4       0.0                          
+    0:01:50  580141.5      0.00       0.3       0.0                          
+    0:01:50  580158.5      0.00       0.3       0.0                          
+    0:01:50  580204.3      0.00       0.3       0.0                          
+    0:01:50  580287.5      0.00       0.2       0.0                          
+    0:01:50  580372.3      0.00       0.2       0.0                          
+    0:01:50  580396.1      0.00       0.2       0.0                          
+    0:01:51  580418.2      0.00       0.2       0.0                          
+    0:01:51  580458.9      0.00       0.1       0.0                          
+    0:01:51  580508.1      0.00       0.1       0.0                          
+    0:01:51  580594.7      0.00       0.1       0.0                          
+    0:01:51  580640.5      0.00       0.1       0.0                          
+    0:01:51  580664.3      0.00       0.1       0.0                          
+    0:01:51  580769.5      0.00       0.0       0.0                          
+    0:01:51  580822.1      0.00       0.0       0.0                          
+    0:01:51  580834.0      0.00       0.0       0.0                          
+    0:01:51  580842.5      0.00       0.0       0.0                          
+    0:01:51  580873.1      0.00       0.0       0.0                          
+    0:01:51  580893.4      0.00       0.0       0.0                          
+    0:01:51  580900.2      0.00       0.0       0.0                          
+    0:01:51  580942.7      0.00       0.0       0.0                          
+    0:01:51  580963.0      0.00       0.0       0.0                          
+    0:01:52  580963.0      0.00       0.0       0.0                          
+Loading db file '/home/yuxiang/proj/libs/TSMC_013/synopsys/fast.db'
+Loading db file '/home/yuxiang/proj/libs/TSMC_013/synopsys/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'sad_cal' contains 2 high-fanout nets. A fanout number of 250 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 5262 load(s), 1 driver(s)
+     Net 'rstn': 5262 load(s), 1 driver(s)
+1

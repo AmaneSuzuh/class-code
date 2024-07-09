@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : disable_timing
+Design : sad_cal
+Version: K-2015.06
+Date   : Sun Mar 24 11:08:34 2019
+****************************************
+
+
+
+Flags:       c  case-analysis
+             f  false net arc
+             C  Conditional arc
+             l  loop breaking
+             u  user-defined
+             m  modes
+
+
+  Cell or Port        From        To             Sense               Flag
+--------------------------------------------------------------------------------
+
+
+1

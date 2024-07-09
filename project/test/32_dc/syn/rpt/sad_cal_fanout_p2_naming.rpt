@@ -1,0 +1,290 @@
+ 
+****************************************
+Report : net fanout
+        -threshold 25
+Design : sad_cal
+Version: K-2015.06
+Date   : Sun Mar 24 11:10:35 2019
+****************************************
+
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sad_cal                ForQA             slow
+sad_cal_DW01_inc_0     ForQA             slow
+sad_cal_DW01_inc_1     ForQA             slow
+sad_cal_DW01_inc_2     ForQA             slow
+sad_cal_DW01_inc_3     ForQA             slow
+sad_cal_DW01_inc_4     ForQA             slow
+sad_cal_DW01_inc_5     ForQA             slow
+sad_cal_DW01_inc_6     ForQA             slow
+sad_cal_DW01_inc_7     ForQA             slow
+sad_cal_DW01_inc_8     ForQA             slow
+sad_cal_DW01_inc_9     ForQA             slow
+sad_cal_DW01_inc_10    ForQA             slow
+sad_cal_DW01_inc_11    ForQA             slow
+sad_cal_DW01_inc_12    ForQA             slow
+sad_cal_DW01_inc_13    ForQA             slow
+sad_cal_DW01_inc_14    ForQA             slow
+sad_cal_DW01_inc_15    ForQA             slow
+sad_cal_DW01_inc_16    ForQA             slow
+sad_cal_DW01_inc_17    ForQA             slow
+sad_cal_DW01_inc_18    ForQA             slow
+sad_cal_DW01_inc_19    ForQA             slow
+sad_cal_DW01_inc_20    ForQA             slow
+sad_cal_DW01_inc_21    ForQA             slow
+sad_cal_DW01_inc_22    ForQA             slow
+sad_cal_DW01_inc_23    ForQA             slow
+sad_cal_DW01_inc_24    ForQA             slow
+sad_cal_DW01_inc_25    ForQA             slow
+sad_cal_DW01_inc_26    ForQA             slow
+sad_cal_DW01_inc_27    ForQA             slow
+sad_cal_DW01_inc_28    ForQA             slow
+sad_cal_DW01_inc_29    ForQA             slow
+sad_cal_DW01_inc_30    ForQA             slow
+sad_cal_DW01_inc_31    ForQA             slow
+sad_cal_DW01_inc_32    ForQA             slow
+sad_cal_DW01_inc_33    ForQA             slow
+sad_cal_DW01_inc_34    ForQA             slow
+sad_cal_DW01_inc_35    ForQA             slow
+sad_cal_DW01_inc_36    ForQA             slow
+sad_cal_DW01_inc_37    ForQA             slow
+sad_cal_DW01_inc_38    ForQA             slow
+sad_cal_DW01_inc_39    ForQA             slow
+sad_cal_DW01_inc_40    ForQA             slow
+sad_cal_DW01_inc_41    ForQA             slow
+sad_cal_DW01_inc_42    ForQA             slow
+sad_cal_DW01_inc_43    ForQA             slow
+sad_cal_DW01_inc_44    ForQA             slow
+sad_cal_DW01_inc_45    ForQA             slow
+sad_cal_DW01_inc_46    ForQA             slow
+sad_cal_DW01_inc_47    ForQA             slow
+sad_cal_DW01_inc_48    ForQA             slow
+sad_cal_DW01_inc_49    ForQA             slow
+sad_cal_DW01_inc_50    ForQA             slow
+sad_cal_DW01_inc_51    ForQA             slow
+sad_cal_DW01_inc_52    ForQA             slow
+sad_cal_DW01_inc_53    ForQA             slow
+sad_cal_DW01_inc_54    ForQA             slow
+sad_cal_DW01_inc_55    ForQA             slow
+sad_cal_DW01_inc_56    ForQA             slow
+sad_cal_DW01_inc_57    ForQA             slow
+sad_cal_DW01_inc_58    ForQA             slow
+sad_cal_DW01_inc_59    ForQA             slow
+sad_cal_DW01_inc_60    ForQA             slow
+sad_cal_DW01_inc_61    ForQA             slow
+sad_cal_DW01_inc_62    ForQA             slow
+sad_cal_DW01_inc_63    ForQA             slow
+sad_cal_DW01_inc_64    ForQA             slow
+sad_cal_DW01_inc_65    ForQA             slow
+sad_cal_DW01_inc_66    ForQA             slow
+sad_cal_DW01_inc_67    ForQA             slow
+sad_cal_DW01_inc_68    ForQA             slow
+sad_cal_DW01_inc_69    ForQA             slow
+sad_cal_DW01_inc_70    ForQA             slow
+sad_cal_DW01_inc_71    ForQA             slow
+sad_cal_DW01_inc_72    ForQA             slow
+sad_cal_DW01_inc_73    ForQA             slow
+sad_cal_DW01_inc_74    ForQA             slow
+sad_cal_DW01_inc_75    ForQA             slow
+sad_cal_DW01_inc_76    ForQA             slow
+sad_cal_DW01_inc_77    ForQA             slow
+sad_cal_DW01_inc_78    ForQA             slow
+sad_cal_DW01_inc_79    ForQA             slow
+sad_cal_DW01_inc_80    ForQA             slow
+sad_cal_DW01_inc_81    ForQA             slow
+sad_cal_DW01_inc_82    ForQA             slow
+sad_cal_DW01_inc_83    ForQA             slow
+sad_cal_DW01_inc_84    ForQA             slow
+sad_cal_DW01_inc_85    ForQA             slow
+sad_cal_DW01_inc_86    ForQA             slow
+sad_cal_DW01_inc_87    ForQA             slow
+sad_cal_DW01_inc_88    ForQA             slow
+sad_cal_DW01_inc_89    ForQA             slow
+sad_cal_DW01_inc_90    ForQA             slow
+sad_cal_DW01_inc_91    ForQA             slow
+sad_cal_DW01_inc_92    ForQA             slow
+sad_cal_DW01_inc_93    ForQA             slow
+sad_cal_DW01_inc_94    ForQA             slow
+sad_cal_DW01_inc_95    ForQA             slow
+sad_cal_DW01_inc_96    ForQA             slow
+sad_cal_DW01_inc_97    ForQA             slow
+sad_cal_DW01_inc_98    ForQA             slow
+sad_cal_DW01_inc_99    ForQA             slow
+sad_cal_DW01_inc_100   ForQA             slow
+sad_cal_DW01_inc_101   ForQA             slow
+sad_cal_DW01_inc_102   ForQA             slow
+sad_cal_DW01_inc_103   ForQA             slow
+sad_cal_DW01_inc_104   ForQA             slow
+sad_cal_DW01_inc_105   ForQA             slow
+sad_cal_DW01_inc_106   ForQA             slow
+sad_cal_DW01_inc_107   ForQA             slow
+sad_cal_DW01_inc_108   ForQA             slow
+sad_cal_DW01_inc_109   ForQA             slow
+sad_cal_DW01_inc_110   ForQA             slow
+sad_cal_DW01_inc_111   ForQA             slow
+sad_cal_DW01_inc_112   ForQA             slow
+sad_cal_DW01_inc_113   ForQA             slow
+sad_cal_DW01_inc_114   ForQA             slow
+sad_cal_DW01_inc_115   ForQA             slow
+sad_cal_DW01_inc_116   ForQA             slow
+sad_cal_DW01_inc_117   ForQA             slow
+sad_cal_DW01_inc_118   ForQA             slow
+sad_cal_DW01_inc_119   ForQA             slow
+sad_cal_DW01_inc_120   ForQA             slow
+sad_cal_DW01_inc_121   ForQA             slow
+sad_cal_DW01_inc_122   ForQA             slow
+sad_cal_DW01_inc_123   ForQA             slow
+sad_cal_DW01_inc_124   ForQA             slow
+sad_cal_DW01_inc_125   ForQA             slow
+sad_cal_DW01_inc_126   ForQA             slow
+sad_cal_DW01_inc_127   ForQA             slow
+sad_cal_DW01_inc_128   ForQA             slow
+sad_cal_DW01_inc_129   ForQA             slow
+sad_cal_DW01_inc_130   ForQA             slow
+sad_cal_DW01_inc_131   ForQA             slow
+sad_cal_DW01_inc_132   ForQA             slow
+sad_cal_DW01_inc_133   ForQA             slow
+sad_cal_DW01_inc_134   ForQA             slow
+sad_cal_DW01_inc_135   ForQA             slow
+sad_cal_DW01_inc_136   ForQA             slow
+sad_cal_DW01_inc_137   ForQA             slow
+sad_cal_DW01_inc_138   ForQA             slow
+sad_cal_DW01_inc_139   ForQA             slow
+sad_cal_DW01_inc_140   ForQA             slow
+sad_cal_DW01_inc_141   ForQA             slow
+sad_cal_DW01_inc_142   ForQA             slow
+sad_cal_DW01_inc_143   ForQA             slow
+sad_cal_DW01_inc_144   ForQA             slow
+sad_cal_DW01_inc_145   ForQA             slow
+sad_cal_DW01_inc_146   ForQA             slow
+sad_cal_DW01_inc_147   ForQA             slow
+sad_cal_DW01_inc_148   ForQA             slow
+sad_cal_DW01_inc_149   ForQA             slow
+sad_cal_DW01_inc_150   ForQA             slow
+sad_cal_DW01_inc_151   ForQA             slow
+sad_cal_DW01_inc_152   ForQA             slow
+sad_cal_DW01_inc_153   ForQA             slow
+sad_cal_DW01_inc_154   ForQA             slow
+sad_cal_DW01_inc_155   ForQA             slow
+sad_cal_DW01_inc_156   ForQA             slow
+sad_cal_DW01_inc_157   ForQA             slow
+sad_cal_DW01_inc_158   ForQA             slow
+sad_cal_DW01_inc_159   ForQA             slow
+sad_cal_DW01_inc_160   ForQA             slow
+sad_cal_DW01_inc_161   ForQA             slow
+sad_cal_DW01_inc_162   ForQA             slow
+sad_cal_DW01_inc_163   ForQA             slow
+sad_cal_DW01_inc_164   ForQA             slow
+sad_cal_DW01_inc_165   ForQA             slow
+sad_cal_DW01_inc_166   ForQA             slow
+sad_cal_DW01_inc_167   ForQA             slow
+sad_cal_DW01_inc_168   ForQA             slow
+sad_cal_DW01_inc_169   ForQA             slow
+sad_cal_DW01_inc_170   ForQA             slow
+sad_cal_DW01_inc_171   ForQA             slow
+sad_cal_DW01_inc_172   ForQA             slow
+sad_cal_DW01_inc_173   ForQA             slow
+sad_cal_DW01_inc_174   ForQA             slow
+sad_cal_DW01_inc_175   ForQA             slow
+sad_cal_DW01_inc_176   ForQA             slow
+sad_cal_DW01_inc_177   ForQA             slow
+sad_cal_DW01_inc_178   ForQA             slow
+sad_cal_DW01_inc_179   ForQA             slow
+sad_cal_DW01_inc_180   ForQA             slow
+sad_cal_DW01_inc_181   ForQA             slow
+sad_cal_DW01_inc_182   ForQA             slow
+sad_cal_DW01_inc_183   ForQA             slow
+sad_cal_DW01_inc_184   ForQA             slow
+sad_cal_DW01_inc_185   ForQA             slow
+sad_cal_DW01_inc_186   ForQA             slow
+sad_cal_DW01_inc_187   ForQA             slow
+sad_cal_DW01_inc_188   ForQA             slow
+sad_cal_DW01_inc_189   ForQA             slow
+sad_cal_DW01_inc_190   ForQA             slow
+sad_cal_DW01_inc_191   ForQA             slow
+sad_cal_DW01_inc_192   ForQA             slow
+sad_cal_DW01_inc_193   ForQA             slow
+sad_cal_DW01_inc_194   ForQA             slow
+sad_cal_DW01_inc_195   ForQA             slow
+sad_cal_DW01_inc_196   ForQA             slow
+sad_cal_DW01_inc_197   ForQA             slow
+sad_cal_DW01_inc_198   ForQA             slow
+sad_cal_DW01_inc_199   ForQA             slow
+sad_cal_DW01_inc_200   ForQA             slow
+sad_cal_DW01_inc_201   ForQA             slow
+sad_cal_DW01_inc_202   ForQA             slow
+sad_cal_DW01_inc_203   ForQA             slow
+sad_cal_DW01_inc_204   ForQA             slow
+sad_cal_DW01_inc_205   ForQA             slow
+sad_cal_DW01_inc_206   ForQA             slow
+sad_cal_DW01_inc_207   ForQA             slow
+sad_cal_DW01_inc_208   ForQA             slow
+sad_cal_DW01_inc_209   ForQA             slow
+sad_cal_DW01_inc_210   ForQA             slow
+sad_cal_DW01_inc_211   ForQA             slow
+sad_cal_DW01_inc_212   ForQA             slow
+sad_cal_DW01_inc_213   ForQA             slow
+sad_cal_DW01_inc_214   ForQA             slow
+sad_cal_DW01_inc_215   ForQA             slow
+sad_cal_DW01_inc_216   ForQA             slow
+sad_cal_DW01_inc_217   ForQA             slow
+sad_cal_DW01_inc_218   ForQA             slow
+sad_cal_DW01_inc_219   ForQA             slow
+sad_cal_DW01_inc_220   ForQA             slow
+sad_cal_DW01_inc_221   ForQA             slow
+sad_cal_DW01_inc_222   ForQA             slow
+sad_cal_DW01_inc_223   ForQA             slow
+sad_cal_DW01_inc_224   ForQA             slow
+sad_cal_DW01_inc_225   ForQA             slow
+sad_cal_DW01_inc_226   ForQA             slow
+sad_cal_DW01_inc_227   ForQA             slow
+sad_cal_DW01_inc_228   ForQA             slow
+sad_cal_DW01_inc_229   ForQA             slow
+sad_cal_DW01_inc_230   ForQA             slow
+sad_cal_DW01_inc_231   ForQA             slow
+sad_cal_DW01_inc_232   ForQA             slow
+sad_cal_DW01_inc_233   ForQA             slow
+sad_cal_DW01_inc_234   ForQA             slow
+sad_cal_DW01_inc_235   ForQA             slow
+sad_cal_DW01_inc_236   ForQA             slow
+sad_cal_DW01_inc_237   ForQA             slow
+sad_cal_DW01_inc_238   ForQA             slow
+sad_cal_DW01_inc_239   ForQA             slow
+sad_cal_DW01_inc_240   ForQA             slow
+sad_cal_DW01_inc_241   ForQA             slow
+sad_cal_DW01_inc_242   ForQA             slow
+sad_cal_DW01_inc_243   ForQA             slow
+sad_cal_DW01_inc_244   ForQA             slow
+sad_cal_DW01_inc_245   ForQA             slow
+sad_cal_DW01_inc_246   ForQA             slow
+sad_cal_DW01_inc_247   ForQA             slow
+sad_cal_DW01_inc_248   ForQA             slow
+sad_cal_DW01_inc_249   ForQA             slow
+sad_cal_DW01_inc_250   ForQA             slow
+sad_cal_DW01_inc_251   ForQA             slow
+sad_cal_DW01_inc_252   ForQA             slow
+sad_cal_DW01_inc_253   ForQA             slow
+sad_cal_DW01_inc_254   ForQA             slow
+sad_cal_DW01_inc_255   ForQA             slow
+
+
+Attributes:
+   dr - drc disabled
+    c - annotated capacitance
+    d - dont_touch
+    i - ideal_net
+    I - ideal_network
+    p - includes pin load
+    r - annotated resistance
+    h - high fanout
+
+Net                 Fanout   Attributes   Capacitance   Driver
+--------------------------------------------------------------------------------
+cal_en                  30                   20.08      cal_en
+clk                   5262   dr, d, I, h      0.00      clk
+rstn                  5262   d, I, h          0.00      rstn
+1

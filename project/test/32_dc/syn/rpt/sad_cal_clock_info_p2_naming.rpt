@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : clocks
+Design : sad_cal
+Version: K-2015.06
+Date   : Sun Mar 24 11:10:35 2019
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+clk              2.25   {0 1.12501}                   {clk}
+--------------------------------------------------------------------------------
+1
+ 
+****************************************
+Report : clock_skew
+Design : sad_cal
+Version: K-2015.06
+Date   : Sun Mar 24 11:10:35 2019
+****************************************
+
+                 Rise      Fall  Min Rise  Min fall        Uncertainty
+Object          Delay     Delay     Delay     Delay     Plus      Minus
+--------------------------------------------------------------------------------
+clk              1.00      1.00      1.00      1.00      0.08      0.15
+
+                 Max Transition      Min Transition
+Object           Rise      Fall      Rise      Fall
+-------------------------------------------------------
+clk              0.10      0.10      0.10      0.10
+1

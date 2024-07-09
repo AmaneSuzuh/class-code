@@ -1,0 +1,76 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 27 1848 596 231 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/hz/project/test/20_sad_cal/sim.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 40961018.974454 41043954.786089
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 22
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/hz/project/test/20_sad_cal/sim.fsdb"
+addSignal -h 15 /tb/cal_en
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope din_w[2047:0]
+addSignal -h 15 -holdScope rand_val[7:0]
+addSignal -h 15 -holdScope ref_w[2047:0]
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -holdScope sad[15:0]
+addSignal -h 15 -holdScope sad_golden[15:0]
+addSignal -h 15 -holdScope sad_vld
+addSignal -h 15 -holdScope sad_vld_golden
+addSignal -h 15 -holdScope test_cnt[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope wait_cyc[4:0]
+addSignal -h 15 -holdScope x[31:0]
+addSignal -h 15 -holdScope y[31:0]
+addSignal -h 15 /tb/top_u/cal_en
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope din[2047:0]
+addSignal -h 15 -holdScope pip_num[4:0]
+addSignal -h 15 -holdScope refi[2047:0]
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -holdScope sad[15:0]
+addSignal -h 15 -holdScope sad_vld
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

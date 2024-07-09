@@ -1,0 +1,85 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /home/hz/project/test/sync_shake/tb.fsdb
+syncTime = 0
+viewport = 371 125 2352 1456 0 0 631 2350
+activeNode = "tb.u_y"
+activeScope = "tb.u_y"
+activeFile = "./top.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb.u_y"
+Scope2 = "tb.u_y.u_sync_i"
+Scope3 = "tb.u_y.u_sync_o"
+Scope4 = "tb"
+multipleSelection = 1 11 1 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-f" "flist.f" "-2001" "-top" "tb" 
+invokeDir = /home/hz/project/test/sync_shake
+[hb.sourceTab.1]
+scope = tb.u_y
+File = /home/hz/project/test/sync_shake/top.v
+Line = 1
+[nMemoryManager]
+WaveformFile = /home/hz/project/test/sync_shake/tb.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 2352 659 226 65
+primaryWindow = TRUE
+SessionFile = /home/hz/project/test/sync_shake/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
